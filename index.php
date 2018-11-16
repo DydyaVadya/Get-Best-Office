@@ -330,7 +330,7 @@
             <div class="screen" style="display: none" id="screen3">
                 <div class="tabletview">
                     <div class="container">
-                        <nav class="navigation helpernav">
+                        <nav class="navigation helpernav nav_top">
                             <div class="container">
                                 <p class="next mobNav" style="display: none">
                                     Следующий шаг
@@ -350,27 +350,27 @@
                                        
                                     <li class="active" id="step2">
                                         <div>1 шаг</div>
-                                        <p>Комната</p>
+<!--                                        <p>Комната</p>-->
                                     </li>
                                     <li id="step3">
                                         <div>2 шаг</div>
-                                        <p>Тип</p>
+<!--                                        <p>Тип</p>-->
                                     </li>
                                     <li id="step4">
                                             <div>3 шаг</div>
-                                        <p>Размер</p>
+<!--                                        <p>Размер</p>-->
                                     </li>
                                     <li id="step5">
                                             <div>4 шаг</div>
-                                        <p>Наполнение</p>
+<!--                                        <p>Наполнение</p>-->
                                     </li>
                                     <li id="step6">
                                             <div>5 шаг</div>
-                                        <p>Вид</p>
+<!--                                        <p>Вид</p>-->
                                     </li>
                                     <li id="step7">
                                             <div>6 шаг</div>
-                                        <p>Условия</p>
+<!--                                        <p>Условия</p>-->
                                     </li>
                                 </ul>
                             </div>
@@ -424,7 +424,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <nav class="navigation">
+                        <nav class="navigation nav_bottom">
                                 <p class="next">
                                         Следующий шаг
                                         <img src="<?php bloginfo('template_url') ?>/img/next.png" alt="">
@@ -447,7 +447,7 @@
             </div>
             <div class="screen" style="display: none" id="screen4">
                 <div class="tabletView">
-                    <nav class="navigation helpernav">
+                    <nav class="navigation helpernav nav_top">
                         <div class="container">
                             <p class="next mobNav" style="display: none">
                                 Следующий шаг
@@ -466,27 +466,27 @@
                             <ul class="steps">
                                 <li id="step2">
                                         <div>1 шаг</div>
-                                        <p>Комната</p>
+<!--                                        <p>Комната</p>-->
                                 </li>
                                 <li class="active" id="step3">
                                     <div>2 шаг</div>
-                                    <p>Тип</p>
+<!--                                    <p>Тип</p>-->
                                 </li>
                                 <li id="step4">
                                         <div>3 шаг</div>
-                                        <p>Размер</p>
+<!--                                        <p>Размер</p>-->
                                 </li>
                                 <li id="step5">
                                     <div>4 шаг</div>
-                                    <p>Наполнение</p>
+<!--                                    <p>Наполнение</p>-->
                                 </li>
                                 <li id="step6">
                                         <div>5 шаг</div>
-                                        <p>Вид</p>
+<!--                                        <p>Вид</p>-->
                                 </li>
                                 <li id="step7">
                                         <div>6 шаг</div>
-                                        <p>Условия</p>
+<!--                                        <p>Условия</p>-->
                                 </li>
                             </ul>
                             
@@ -559,7 +559,7 @@
                                 </label>
                             </div> -->
                         </div>
-                        <nav class="navigation">
+                        <nav class="navigation nav_bottom">
                             <p class="next">
                                 Следующий шаг
                                 <img src="<?php bloginfo('template_url') ?>/img/next.png" alt="">
@@ -582,7 +582,7 @@
             </div>
             <div class="screen" style="display: none" id="screen5">
                 <div class="tabletView">
-                    <nav class="navigation helpernav">
+                    <nav class="navigation helpernav nav_top">
                         <div class="container">
                             <p class="next mobNav" style="display: none">
                                 Следующий шаг
@@ -601,27 +601,27 @@
                             <ul class="steps">
                                 <li id="step2">
                                         <div>1 шаг</div>
-                                        <p>Комната</p>
+<!--                                        <p>Комната</p>-->
                                 </li>
                                 <li id="step3">
                                     <div>2 шаг</div>
-                                    <p>Тип</p>
+<!--                                    <p>Тип</p>-->
                                 </li>
                                 <li class="active" id="step4">
                                         <div>3 шаг</div>
-                                        <p>Размер</p>
+<!--                                        <p>Размер</p>-->
                                 </li>
                                 <li id="step5">
                                     <div>4 шаг</div>
-                                    <p>Наполнение</p>
+<!--                                    <p>Наполнение</p>-->
                                 </li>
                                 <li id="step6">
                                         <div>5 шаг</div>
-                                        <p>Вид</p>
+<!--                                        <p>Вид</p>-->
                                 </li>
                                 <li id="step7">
                                         <div>6 шаг</div>
-                                        <p>Условия</p>
+<!--                                        <p>Условия</p>-->
                                 </li>
                             </ul>
                         </div>
@@ -669,7 +669,7 @@
                             </div>
                         </div>
                     </div>
-                    <nav class="navigation">
+                    <nav class="navigation nav_bottom">
                         <p class="prev">
                                 <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
                             </p>
@@ -694,7 +694,7 @@
             </div>
             <div class="screen" style="display: none" id="screen6">
                 <div class="tabletView">
-                    <nav class="navigation helpernav">
+                    <nav class="navigation helpernav nav_top">
                         <div class="container">
                             <p class="next mobNav" style="display: none">
                                 Следующий шаг
@@ -713,27 +713,27 @@
                             <ul class="steps">
                                 <li id="step2">
                                         <div>1 шаг</div>
-                                        <p>Комната</p>
+<!--                                        <p>Комната</p>-->
                                 </li>
                                 <li id="step3">
                                     <div>2 шаг</div>
-                                    <p>Тип</p>
+<!--                                    <p>Тип</p>-->
                                 </li>
                                 <li  id="step4">
                                         <div>3 шаг</div>
-                                        <p>Размер</p>
+<!--                                        <p>Размер</p>-->
                                 </li>
                                 <li id="step5" class="active">
                                     <div>4 шаг</div>
-                                    <p>Наполнение</p>
+<!--                                    <p>Наполнение</p>-->
                                 </li>
                                 <li id="step6">
                                         <div>5 шаг</div>
-                                        <p>Вид</p>
+<!--                                        <p>Вид</p>-->
                                 </li>
                                 <li id="step7">
                                         <div>6 шаг</div>
-                                        <p>Условия</p>
+<!--                                        <p>Условия</p>-->
                                 </li>
                             </ul>
                         </div>
@@ -835,7 +835,7 @@
                                 </div>
                             </div>
                         </div>
-                        <nav class="navigation">
+                        <nav class="navigation nav_bottom">
                                 <p class="prev">
                                         <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
                                     </p>
@@ -862,7 +862,7 @@
             </div>
             <div class="screen" style="display: none" id="screen7">
                 <div class="tabletView">
-                    <nav class="navigation helpernav">
+                    <nav class="navigation helpernav nav_top">
                         <div class="container">
                             <p class="next mobNav" style="display: none">
                                 Следующий шаг
@@ -881,27 +881,27 @@
                             <ul class="steps">
                                     <li id="step2">
                                             <div>1 шаг</div>
-                                            <p>Комната</p>
+<!--                                            <p>Комната</p>-->
                                     </li>
                                     <li id="step3">
                                         <div>2 шаг</div>
-                                        <p>Тип</p>
+<!--                                        <p>Тип</p>-->
                                     </li>
                                     <li  id="step4">
                                             <div>3 шаг</div>
-                                            <p>Размер</p>
+<!--                                            <p>Размер</p>-->
                                     </li>
                                     <li id="step5">
                                         <div>4 шаг</div>
-                                        <p>Наполнение</p>
+<!--                                        <p>Наполнение</p>-->
                                     </li>
                                     <li id="step6" class="active">
                                             <div>5 шаг</div>
-                                            <p>Вид</p>
+<!--                                            <p>Вид</p>-->
                                     </li>
                                     <li id="step7">
                                             <div>6 шаг</div>
-                                            <p>Условия</p>
+<!--                                            <p>Условия</p>-->
                                     </li>
                                 </ul>
                         </div>
@@ -1000,7 +1000,7 @@
                                 </div> -->
                             </div>
                         </div>
-                        <nav class="navigation">
+                        <nav class="navigation nav_bottom">
                                 <p class="prev">
                                         <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
                                     </p>
@@ -1027,7 +1027,7 @@
             </div>
             <div class="screen" style="display: none" id="screen8">
                 <div class="tabletView">
-                    <nav class="navigation helpernav">
+                    <nav class="navigation helpernav nav_top">
                         <div class="container">
                             <p class="next mobNav" style="display: none">
                                 Следующий шаг
@@ -1046,27 +1046,27 @@
                             <ul class="steps">
                                     <li id="step2">
                                             <div>1 шаг</div>
-                                            <p>Комната</p>
+<!--                                            <p>Комната</p>-->
                                     </li>
                                     <li id="step3">
                                         <div>2 шаг</div>
-                                        <p>Тип</p>
+<!--                                        <p>Тип</p>-->
                                     </li>
                                     <li  id="step4">
                                             <div>3 шаг</div>
-                                            <p>Размер</p>
+<!--                                            <p>Размер</p>-->
                                     </li>
                                     <li id="step5">
                                         <div>4 шаг</div>
-                                        <p>Наполнение</p>
+<!--                                        <p>Наполнение</p>-->
                                     </li>
                                     <li id="step6" >
                                             <div>5 шаг</div>
-                                            <p>Вид</p>
+<!--                                            <p>Вид</p>-->
                                     </li>
                                     <li id="step7" class="active">
                                             <div>6 шаг</div>
-                                            <p>Условия</p>
+<!--                                            <p>Условия</p>-->
                                     </li>
                                 </ul>
                         </div>
@@ -1139,7 +1139,7 @@
                                 </div>
                             </div>
                         </div>
-                        <nav class="navigation">
+                        <nav class="navigation nav_bottom">
                                 <p class="prev">
                                         <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
                                     </p>
@@ -1246,7 +1246,7 @@
                         </div>
                     </div>
                     
-                    <nav class="navigation">
+                    <nav class="navigation nav_bottom">
                             <!-- <p class="prev">
                                     <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
                                 </p>
