@@ -377,7 +377,7 @@
                         </nav>
                         <div class="plashka">
                             <p class="question">
-                                Куда вы хотите поставить шкаф-купе?
+                                Куда вы хотите поставить офисную мебель?
                             </p>
                             <div class="quest">
                                 <ul>
@@ -405,22 +405,22 @@
                                             </p>
                                         </label>
                                     </li>
-                                    <li lass="imgScale">
-                                        <label for="detskaya">
-                                            <p class="imgBlock detskaya"></p>
-                                            <p>
-                                                <input type="radio" name="shkafPlace" id="detskaya" value="В детскую"> Детская
-                                            </p>
-                                        </label>
-                                    </li>
-                                    <li lass="imgScale">
-                                        <label for="other">
-                                            <p class="imgBlock other"></p>
-                                            <p>
-                                                <input type="radio" name="shkafPlace" id="other" value="В другую комнату"> Другая комната
-                                            </p>
-                                        </label>
-                                    </li>
+<!--                                    <li lass="imgScale">-->
+<!--                                        <label for="detskaya">-->
+<!--                                            <p class="imgBlock detskaya"></p>-->
+<!--                                            <p>-->
+<!--                                                <input type="radio" name="shkafPlace" id="detskaya" value="В детскую"> Детская-->
+<!--                                            </p>-->
+<!--                                        </label>-->
+<!--                                    </li>-->
+<!--                                    <li lass="imgScale">-->
+<!--                                        <label for="other">-->
+<!--                                            <p class="imgBlock other"></p>-->
+<!--                                            <p>-->
+<!--                                                <input type="radio" name="shkafPlace" id="other" value="В другую комнату"> Другая комната-->
+<!--                                            </p>-->
+<!--                                        </label>-->
+<!--                                    </li>-->
                                 </ul>
                             </div>
                         </div>
