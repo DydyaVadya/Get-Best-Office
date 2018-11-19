@@ -671,13 +671,6 @@ body {
        }
      }
 
-    //body #screen3 .quest ul li p.selected input:checked + .img_footer_item_screen3 {
-    //  display: block;
-    //}
-  //  body #screen3 .img_footer_item_screen3_dop
-  //  body #screen3 .plashka .item input:checked + .img_footer_item_screen3:after {
-  //  display: block;
-  //}
 
     .img_footer_item_screen3_dop{
       position: absolute;
@@ -900,6 +893,79 @@ body {
 
   //Тип шкафа
   #screen4 {
+    .plashka {
+      //height: 362px;
+
+    }
+    .img_footer_item_screen4 {
+      opacity: 0;
+      position: relative;
+      width: 100%;
+      height: 32%;
+      background-color: rgba(0, 0, 0, 0.5);
+      bottom: 107px;
+      left: 0px;
+      span {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        //margin: 14px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+      }
+      &:after{
+        opacity: 0;
+        content: url(../img/ok.png);
+        position: absolute;
+        top: -10%;
+        left: 47%;
+      }
+    }
+
+
+    .img_footer_item_screen4_dop{
+      position: absolute;
+      width: 8%;
+      height: 15%;
+      border: 2px solid yellow;
+      left: 45%;
+      bottom: 94%;
+      border-radius: 6px;
+      background-color: rgba(0, 0, 0, 0.5);
+      &:before{
+        content: "";
+        border-top: 4px solid yellow;
+        position: absolute;
+        top: 11px;
+        left: -574%;
+        width: 565%;
+        height: 14px;
+      }
+      &:after {
+        content: "";
+        border-top: 4px solid yellow;
+        position: absolute;
+        top: 11px;
+        right: -580%;
+        width: 579%;
+        height: 14px;
+
+      }
+    }
+    .p {
+      position: absolute;
+      top: 0px;
+      /* left: 40px; */
+      //z-index: 1;
+      width: 100%;
+      height: 20%;
+      background-color: rgba(0, 0, 0, 0.6);
+      font-size: 20px;
+      color: white;
+      line-height: 3;
+    }
     //background-image: url(../img/backgrounds/bg-img.png);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -928,7 +994,7 @@ body {
         flex-wrap: wrap;
         li {
           position: relative;
-          z-index: 1;
+          //z-index: 1;
           display: inline-block;
           text-align: center;
           width: 23%;
@@ -940,40 +1006,51 @@ body {
           -webkit-box-sizing: border-box;
           box-sizing: border-box;
           &:hover {
-            .imgBlock {
-              border: 4px solid #fbc740;
-              -o-border-image: linear-gradient(to right, #fbc740 0%, #f0e625 100%);
-                 border-image: -webkit-gradient(linear, left top, right top, from(#fbc740), to(#f0e625));
-                 border-image: linear-gradient(to right, #fbc740 0%, #f0e625 100%);
-              border-image-slice: 1;
+            .imgBlock ~ .img_footer_item_screen4 {
+              opacity: 1;
+              //border: 4px solid #fbc740;
+              //-o-border-image: linear-gradient(to right, #fbc740 0%, #f0e625 100%);
+              //   border-image: -webkit-gradient(linear, left top, right top, from(#fbc740), to(#f0e625));
+              //   border-image: linear-gradient(to right, #fbc740 0%, #f0e625 100%);
+              //border-image-slice: 1;
               // border-top: 2px solid #fbc02d;
               // border-bottom: 2px solid #fbc02d;
-              &.selected {
-                border: 4px solid #fbc740;
-                -o-border-image: linear-gradient(
-                  to right,
-                  #fbc740 0%,
-                  #f0e625 100%
-                );
-                   border-image: -webkit-gradient(
-                  linear,
-                  left top, right top,
-                  from(#fbc740),
-                  to(#f0e625)
-                );
-                   border-image: linear-gradient(
-                  to right,
-                  #fbc740 0%,
-                  #f0e625 100%
-                );
-                border-image-slice: 1;
-                // border-top: 4px solid #fbc02d;
-                // border-bottom: 4px solid #fbc02d;
-              }
+              //&.selected {
+              //  border: 4px solid #fbc740;
+              //  -o-border-image: linear-gradient(
+              //    to right,
+              //    #fbc740 0%,
+              //    #f0e625 100%
+              //  );
+              //     border-image: -webkit-gradient(
+              //    linear,
+              //    left top, right top,
+              //    from(#fbc740),
+              //    to(#f0e625)
+              //  );
+              //     border-image: linear-gradient(
+              //    to right,
+              //    #fbc740 0%,
+              //    #f0e625 100%
+              //  );
+              //  border-image-slice: 1;
+              //  // border-top: 4px solid #fbc02d;
+              //  // border-bottom: 4px solid #fbc02d;
+              //}
             }
           }
           &:last-child {
             margin-right: 0;
+          }
+          input {
+            margin-right: 10px;
+            display: none;
+            &:checked ~ .img_footer_item_screen4 {
+              opacity: 1;
+            }
+            &:checked ~ .img_footer_item_screen4:after {
+              opacity: 1;
+            }
           }
           a {
             display: block;
@@ -985,10 +1062,7 @@ body {
               color: @yellow;
             }
 
-            input {
-              margin-right: 10px;
-              display: none;
-            }
+
             .vopros {
               display: inline-block;
               margin-left: 10px;
@@ -1010,14 +1084,14 @@ body {
             width: 100%;
             background-color: white;
             height: 235px;
-            -moz-transition: all 0.3s ease-out;
-            -o-transition: all 0.3s ease-out;
-            -webkit-transition: all 0.3s ease-out;
+            //-moz-transition: all 0.3s ease-out;
+            //-o-transition: all 0.3s ease-out;
+            //-webkit-transition: all 0.3s ease-out;
             cursor: pointer;
             position: relative;
             background-repeat: no-repeat;
             background-position: center;
-            border: 1px solid #efefef;
+            //border: 1px solid #efefef;
             // &:after {
             //   content: url("../img/check.png");
             //   position: absolute;
@@ -1034,17 +1108,18 @@ body {
             &.selected {
               // border-top: 4px solid #fbc02d;
               // border-bottom: 4px solid #fbc02d;
-              border: 4px solid #fbc740;
-              -o-border-image: linear-gradient(to right, #fbc740 0%, #f0e625 100%);
-                 border-image: -webkit-gradient(linear, left top, right top, from(#fbc740), to(#f0e625));
-                 border-image: linear-gradient(to right, #fbc740 0%, #f0e625 100%);
-              border-image-slice: 1;
-              -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-              // &:after {
+              //border: 4px solid #fbc740;
+              //-o-border-image: linear-gradient(to right, #fbc740 0%, #f0e625 100%);
+              //   border-image: -webkit-gradient(linear, left top, right top, from(#fbc740), to(#f0e625));
+              //   border-image: linear-gradient(to right, #fbc740 0%, #f0e625 100%);
+              //border-image-slice: 1;
+              //-webkit-box-sizing: border-box;
+              //box-sizing: border-box;
+              //// &:after {
               //   content: url("../img/checkDone.png");
               // }
             }
+
             &.korpus {
               background-image: url("../img/shkafType/korpusColor.png");
             }
@@ -2736,7 +2811,7 @@ body {
     // }
     .helpernav {
       margin-top: 10px;
-      border-bottom: 4px solid red;
+      //border-bottom: 4px solid red;
     }
     .steps {
       display: none;
@@ -2762,6 +2837,8 @@ body {
     }
   }
   body #screen3 {
+
+
     .quest {
       &:before {
         display: none;
@@ -2834,6 +2911,13 @@ body {
     }
   }
   body #screen3 {
+    .next{
+      border-radius: 20px;
+    }
+    .prev {
+      border-radius: 20px;
+    }
+
     .quest {
       &:before {
         display: none;
@@ -2844,7 +2928,8 @@ body {
         }
         width: 100%;
         .imgBlock {
-          width: 90%;
+
+          width: 100%;
           background-position: center;
           &.other {
             background-position: left;
@@ -2854,11 +2939,17 @@ body {
     }
   }
   body #screen4 {
+    .img_footer_item_screen4 {
+
+      bottom: 121px;
+    }
     .quest {
       ul {
+        justify-content: center;
         li {
-          width: 90%;
+          width: 100%;
           .imgBlock {
+            height: 300px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
