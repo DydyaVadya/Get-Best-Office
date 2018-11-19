@@ -515,15 +515,26 @@
                     <div class="container">
                         <div class="plashka">
                             <p class="question">
-                                Какой тип шкафа выберем?
+                                Какой стиль офисной мебели выберете?
                             </p>
                             <div class="quest">
                                 <ul>
                                     <li>
-                                        <label for="korpus">
+                                        <label for="new">
                                             <p class="imgBlock korpus selected"></p>
                                             <a href="#" class="toolTip" title="Имеет полноценную единую конструкцию, состоящую из боковых и задних стенок, потолка, пола, перегородок, ящиков и раздвижных дверей (полноценный отдельно стоящий шкаф). Преимущества такого шкафа: возможность перемещать по квартире, например, при ремонте.">
-                                                <input type="radio" name="shkafType" id="korpus" value="Корпусный" checked> Корпусный
+                                                <input type="radio" name="shkafType" id="new" value="New" checked> New
+                                                <!-- <p class="vopros">
+                                                    ?
+                                                </p> -->
+                                            </a>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="klassik">
+                                            <p class="imgBlock klassik selected"></p>
+                                            <a href="#" class="toolTip" title="Имеет полноценную единую конструкцию, состоящую из боковых и задних стенок, потолка, пола, перегородок, ящиков и раздвижных дверей (полноценный отдельно стоящий шкаф). Преимущества такого шкафа: возможность перемещать по квартире, например, при ремонте.">
+                                                <input type="radio" name="shkafType" id="klassik" value="Классика" checked> Классика
                                                 <!-- <p class="vopros">
                                                     ?
                                                 </p> -->
