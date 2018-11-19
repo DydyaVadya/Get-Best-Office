@@ -187,6 +187,8 @@ $(document).ready(function () {
         $.each(elMass, function (i, val) {
             $(val).parent().parent().find('.imgBlock').removeClass("selected");
             $(val).parent().removeClass("selected");
+
+
             if($(val).prop("checked")){
                 $(val).parent().parent().find('.imgBlock').addClass("selected");
                 $(val).parent().addClass("selected");
@@ -612,4 +614,5 @@ function sendCalculatorForm(ajax_form, url) {
     };
     });
     */
+
     

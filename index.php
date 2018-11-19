@@ -385,13 +385,16 @@
 
                                         <label for="prihozhaya">
                                             <p class="imgBlock prihozhaya"></p>
-                                            <p>
-                                                <input type="radio" name="shkafPlace" id="prihozhaya" value="В прихожую" checked> Прихожая
-                                            </p>
-                                            <div class="img_footer_item_screen3">
-                                                <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
-                                            <div class="img_footer_item_screen3_dop"></div>
-                                            </div>
+
+                                                <input type="radio" name="shkafPlace" id="prihozhaya" value="В прихожую" checked>
+                                            <p class="p">Прихожая</p>
+                                                <div class="img_footer_item_screen3" >
+                                                    <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+                                                    <div class="img_footer_item_screen3_dop"></div>
+                                                </div>
+
+
+
                                         </label>
 
                                     </li>
@@ -399,18 +402,26 @@
 
                                         <label for="gostinaya">
                                             <p class="imgBlock gostinaya"></p>
-                                            <p>
-                                                <input type="radio" name="shkafPlace" id="gostinaya" value="В гостиную"> Гостиная
-                                            </p>
+                                            <p class="p">Гостиная</p>
+                                                <input type="radio" name="shkafPlace" id="gostinaya" value="В гостиную">
+
+                                            <div class="img_footer_item_screen3" >
+                                                <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+                                                <div class="img_footer_item_screen3_dop"></div>
+                                            </div>
                                         </label>
                                     </li>
                                     <li lass="imgScale">
 
                                         <label for="spalnya">
                                             <p class="imgBlock spalnya"></p>
-                                            <p>
-                                                <input type="radio" name="shkafPlace" id="spalnya" value="В спальню"> Спальня
-                                            </p>
+                                            <p class="p">Спальня</p>
+                                                <input type="radio" name="shkafPlace" id="spalnya" value="В спальню">
+
+                                            <div class="img_footer_item_screen3" >
+                                                <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+                                                <div class="img_footer_item_screen3_dop"></div>
+                                            </div>
                                         </label>
                                     </li>
 <!--                                    <li lass="imgScale">-->
