@@ -627,118 +627,273 @@
                     </div> -->
                 </div>
             </div>
+
+
+<!--            начало старого скрин 5-->
+<!--            <div class="screen" style="display: none" id="screen5">-->
+<!--                <div class="tabletView">-->
+<!--                    <nav class="navigation helpernav nav_top">-->
+<!--                        <div class="container">-->
+<!--                            <p class="next mobNav" style="display: none">-->
+<!--                                Следующий шаг-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/next.png" alt="">-->
+<!--                            </p>-->
+<!--                            <p class="prev mobNav" style="display: none">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/prev.png" alt=""> Предыдущий шаг-->
+<!--                            </p>-->
+<!--                            <!-- <p class="prev">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/prev.png" alt=""> Предыдущий шаг-->
+<!--                            </p> -->-->
+<!--                            <!-- <p class="next">-->
+<!--                                Следующий шаг-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/next.png" alt="">-->
+<!--                            </p> -->-->
+<!--                            <ul class="steps">-->
+<!--                                <li id="step2">-->
+<!--                                        <div>1 шаг</div>-->
+<!--<!--                                        <p>Комната</p>-->-->
+<!--                                </li>-->
+<!--                                <li id="step3">-->
+<!--                                    <div>2 шаг</div>-->
+<!--<!--                                    <p>Тип</p>-->-->
+<!--                                </li>-->
+<!--                                <li class="active" id="step4">-->
+<!--                                        <div>3 шаг</div>-->
+<!--<!--                                        <p>Размер</p>-->-->
+<!--                                </li>-->
+<!--                                <li id="step5">-->
+<!--                                    <div>4 шаг</div>-->
+<!--<!--                                    <p>Наполнение</p>-->-->
+<!--                                </li>-->
+<!--                                <li id="step6">-->
+<!--                                        <div>5 шаг</div>-->
+<!--<!--                                        <p>Вид</p>-->-->
+<!--                                </li>-->
+<!--                                <li id="step7">-->
+<!--                                        <div>6 шаг</div>-->
+<!--<!--                                        <p>Условия</p>-->-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </nav>-->
+<!--                    <div class="plashka">-->
+<!--                        <div class="container">-->
+<!--                            <p class="question">-->
+<!--                                Какого размера будет шкаф-купе?-->
+<!--                            </p>-->
+<!--                            <div class="quest">-->
+<!--                                <div class="deep">-->
+<!--                                    <label for="deep">Глубина</label>-->
+<!--                                    <input type="text" name="deep" id="deep"> см-->
+<!--                                    <div class="slider" id="sliderD"></div>-->
+<!--                                    <div class="sliderMinMax">-->
+<!--                                        <p class="min">20 см</p>-->
+<!--                                        <p class="max">100 см</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="questionPoyasnenie">-->
+<!--                                    <p>-->
+<!--                                        Для расчёта стоимости Вы указываете ориентировочные размеры будущего шкафа.-->
+<!--                                        <br> При заказе шкафа-купе, инженер-дизайнер бесплатно приедет к Вам домой и произведёт-->
+<!--                                        точные замеры!-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                                <div class="height">-->
+<!--                                    <label for="height">Высота</label>-->
+<!--                                    <input type="text" name="height" id="height"> см-->
+<!--                                    <div class="slider" id="sliderH"></div>-->
+<!--                                    <div class="sliderMinMax">-->
+<!--                                        <p class="min">120 см</p>-->
+<!--                                        <p class="max">400 см</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="width">-->
+<!--                                    <label for="width">Ширина</label>-->
+<!--                                    <input type="text" name="width" id="width"> см-->
+<!--                                    <div class="slider" id="sliderW"></div>-->
+<!--                                    <div class="sliderMinMax">-->
+<!--                                        <p class="min">60 см</p>-->
+<!--                                        <p class="max">1000 см</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <nav class="navigation nav_bottom">-->
+<!--                        <p class="prev">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/prev.png" alt=""> Предыдущий шаг-->
+<!--                            </p>-->
+<!--                        <p class="next">-->
+<!--                                Следующий шаг-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/next.png" alt="">-->
+<!--                        </p>-->
+<!--                        <div class="container">-->
+<!--                                <p class="next mobNav" style="display: none">-->
+<!--                                    Следующий шаг-->
+<!--                                    <img src="--><?php //bloginfo('template_url') ?><!--/img/next.png" alt="">-->
+<!--                                </p>-->
+<!--                                <p class="prev mobNav" style="display: none">-->
+<!--                                    <img src="--><?php //bloginfo('template_url') ?><!--/img/prev.png" alt=""> Предыдущий шаг-->
+<!--                                </p>-->
+<!--                        </div>-->
+<!--                </nav>-->
+<!--                    <!-- <div class="openNextStep">-->
+<!--                        <p>Далее</p>-->
+<!--                    </div> -->-->
+<!--                </div>-->
+<!--            </div>-->
+            <!-- конец старого скрин 5 -->
+
+
+<!--            начало нового сркин 5-->
             <div class="screen" style="display: none" id="screen5">
+                <img src="<?php bloginfo('template_url') ?>/img/stickerWindownum.png" alt="" class="sticker stickerWindownum">
                 <div class="tabletView">
-                    <nav class="navigation helpernav nav_top">
-                        <div class="container">
-                            <p class="next mobNav" style="display: none">
-                                Следующий шаг
-                                <img src="<?php bloginfo('template_url') ?>/img/next.png" alt="">
-                            </p>
-                            <p class="prev mobNav" style="display: none">
-                                <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
-                            </p>
-                            <!-- <p class="prev">
-                                <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
-                            </p> -->
-                            <!-- <p class="next">
-                                Следующий шаг
-                                <img src="<?php bloginfo('template_url') ?>/img/next.png" alt="">
-                            </p> -->
-                            <ul class="steps">
-                                <li id="step2">
-                                        <div>1 шаг</div>
-<!--                                        <p>Комната</p>-->
-                                </li>
-                                <li id="step3">
-                                    <div>2 шаг</div>
-<!--                                    <p>Тип</p>-->
-                                </li>
-                                <li class="active" id="step4">
-                                        <div>3 шаг</div>
-<!--                                        <p>Размер</p>-->
-                                </li>
-                                <li id="step5">
-                                    <div>4 шаг</div>
-<!--                                    <p>Наполнение</p>-->
-                                </li>
-                                <li id="step6">
-                                        <div>5 шаг</div>
-<!--                                        <p>Вид</p>-->
-                                </li>
-                                <li id="step7">
-                                        <div>6 шаг</div>
-<!--                                        <p>Условия</p>-->
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                    <div class="plashka">
-                        <div class="container">
-                            <p class="question">
-                                Какого размера будет шкаф-купе?
-                            </p>
-                            <div class="quest">
-                                <div class="deep">
-                                    <label for="deep">Глубина</label>
-                                    <input type="text" name="deep" id="deep"> см
-                                    <div class="slider" id="sliderD"></div>
-                                    <div class="sliderMinMax">
-                                        <p class="min">20 см</p>
-                                        <p class="max">100 см</p>
-                                    </div>
-                                </div>
-                                <div class="questionPoyasnenie">
-                                    <p>
-                                        Для расчёта стоимости Вы указываете ориентировочные размеры будущего шкафа.
-                                        <br> При заказе шкафа-купе, инженер-дизайнер бесплатно приедет к Вам домой и произведёт
-                                        точные замеры!
-                                    </p>
-                                </div>
-                                <div class="height">
-                                    <label for="height">Высота</label>
-                                    <input type="text" name="height" id="height"> см
-                                    <div class="slider" id="sliderH"></div>
-                                    <div class="sliderMinMax">
-                                        <p class="min">120 см</p>
-                                        <p class="max">400 см</p>
-                                    </div>
-                                </div>
-                                <div class="width">
-                                    <label for="width">Ширина</label>
-                                    <input type="text" name="width" id="width"> см
-                                    <div class="slider" id="sliderW"></div>
-                                    <div class="sliderMinMax">
-                                        <p class="min">60 см</p>
-                                        <p class="max">1000 см</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <nav class="navigation nav_bottom">
-                        <p class="prev">
-                                <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
-                            </p>
-                        <p class="next">
-                                Следующий шаг
-                                <img src="<?php bloginfo('template_url') ?>/img/next.png" alt="">
-                        </p>
-                        <div class="container">
+                    <div class="container">
+                        <nav class="navigation">
+                            <div class="container">
                                 <p class="next mobNav" style="display: none">
                                     Следующий шаг
                                     <img src="<?php bloginfo('template_url') ?>/img/next.png" alt="">
                                 </p>
                                 <p class="prev mobNav" style="display: none">
-                                    <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
+                                    <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt="">
+                                    Предыдущий шаг
                                 </p>
+                                <p class="prev">
+                                    <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt="">
+                                    Предыдущий шаг
+                                </p>
+                                <p class="next">
+                                    Следующий шаг
+                                    <img src="<?php bloginfo('template_url') ?>/img/next.png" alt="">
+                                </p>
+                            </div>
+                            <!-- <ul class="steps">
+                                <li class="done" id="step2">
+                                    <p>1</p>
+                                </li>
+                                <li class="done" id="step3">
+                                    <p>2</p>
+                                </li>
+                                <li id="step4" class="done">
+                                    <p>3</p>
+                                </li>
+                                <li class="active" id="step5">
+                                    <p>4</p>
+                                </li>
+                                <li id="step6">
+                                    <p>5</p>
+                                </li>
+                                <li id="step7">
+                                    <p>6</p>
+                                </li>
+                                <li id="step8">
+                                    <p>7</p>
+                                </li>
+                            </ul> -->
+                        </nav>
+                        <div class="plashka">
+                            <p class="question">
+                                Выберите тип и комплектацию котла
+                            </p>
+                            <div class="quest">
+                                <ul>
+                                    <li>
+                                        <div class="title">
+                                            Базовая комплектация
+                                        </div>
+                                        <img src="<?php bloginfo('template_url') ?>/img/window1.jpg" alt="">
+                                        <div class="num">
+                                            <div class="minus">
+                                                −
+                                            </div>
+                                            <div class="number">
+                                                <input type="text" value="0" name="window1">
+                                            </div>
+                                            <div class="plus">
+                                                +
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="title">
+                                            С механическим регулятором тяги
+                                        </div>
+                                        <img src="<?php bloginfo('template_url') ?>/img/window2.jpg" alt="">
+                                        <div class="num">
+                                            <div class="minus">
+                                                −
+                                            </div>
+                                            <div class="number">
+                                                <input type="text" value="0" name="window2">
+                                            </div>
+                                            <div class="plus">
+                                                +
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="title">
+                                            С электронной автоматикой и вентилятором
+                                        </div>
+                                        <img src="<?php bloginfo('template_url') ?>/img/window3.jpg" alt="">
+                                        <div class="num">
+                                            <div class="minus">
+                                                −
+                                            </div>
+                                            <div class="number">
+                                                <input type="text" value="0" name="window3">
+                                            </div>
+                                            <div class="plus">
+                                                +
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="title">
+                                            С электронной автоматикой и датчиком Z-PID
+                                        </div>
+                                        <img src="<?php bloginfo('template_url') ?>/img/window4.jpg" alt="">
+                                        <div class="num">
+                                            <div class="minus">
+                                                −
+                                            </div>
+                                            <div class="number">
+                                                <input type="text" value="0" name="window4">
+                                            </div>
+                                            <div class="plus">
+                                                +
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sale-status">
+                                <p class-"sale-title">Размер вашей скидки:<p class="barText"></p><span>UAH</span></p>
+                                <div class="sale-bar">
+                                    <div class="bar">
+                                        <div class="bar-inner"></div>
+                                    </div>
+                                    <span class="sale-min">0 UAH</span>
+                                    <span class="sale-max">2000 UAH</span>
+                                </div>
+                            </div>
+                            <div class="shag">Шаг 4</div>
                         </div>
-                </nav>
-                    <!-- <div class="openNextStep">
-                        <p>Далее</p>
-                    </div> -->
+                    </div>
+                    <div class="openNextStep"><p>Далее</p></div>
                 </div>
             </div>
+<!--            конец нового скрин 5-->
+<!--            начало старого скриин 6-->
+
+
+
             <div class="screen" style="display: none" id="screen6">
                 <div class="tabletView">
                     <nav class="navigation helpernav nav_top">
