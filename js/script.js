@@ -614,5 +614,23 @@ function sendCalculatorForm(ajax_form, url) {
     };
     });
     */
-
-    
+//вставил с котлов тестово переключатель в для скрина 5
+$(document).ready(function () {
+    $('body #screen5 .quest ul li .num .plus, body #screen5 .quest ul li .num .minus').click(function () {
+        var inp = $(this).closest('.num').find('input').val();
+        if($(this).hasClass('minus')){
+            if(inp<1){
+                return false;
+            } else{
+                $(this).closest('.num').find('input').val(inp*1 - 1);
+            }
+        } else if ($(this).hasClass('plus')){
+            $(this).closest('.num').find('input').val(inp*1 + 1);
+        }
+    });
+    $('body #screen5 .quest ul li .num input').change(function () {
+        if($(this).val()<0){
+            $(this).val(0);
+        }
+    });
+});
