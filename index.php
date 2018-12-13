@@ -758,7 +758,7 @@ if ($utm == 'facebook') {
                                             −
                                         </div>
                                         <div class="number">
-                                            <input type="text" value="0" name="window1">
+                                            <input type="text" value="1" name="window1">
                                         </div>
                                         <div class="plus">
                                             +
@@ -956,133 +956,221 @@ if ($utm == 'facebook') {
                 <div class="container">
                     <div class="plashka">
                         <p class="question">
-                            Что будет храниться в новом шкафу?
+                            Дополнительная комплектация офиса
                         </p>
                         <div class="quest questLeft">
                             <ul>
+<!--                                <li>-->
+<!--                                    <label for="pylesos">-->
+<!--                                        <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/ico/pylesos.svg" alt="">-->
+<!--                                        Пылесос-->
+<!--                                        <input id="pylesos" type="checkbox" name="ZshkafContain[]" value="пылесоса">-->
+<!--                                    </label>-->
+<!--                                </li>-->
                                 <li>
                                     <label for="pylesos">
-                                        <img src="<?php bloginfo('template_url') ?>/img/shkaf/ico/pylesos.svg" alt="">
-                                        Пылесос
-                                        <input id="pylesos" type="checkbox" name="ZshkafContain[]" value="пылесоса">
+                                        <p class="imgBlock uglovoy"></p>
+                                        <div class="p">Кухня</div>
+                                        <input type="checkbox" name="ZshkafContain[]" id="pylesos" value="Пылесос">
+                                        <div class="img_footer_item_screen4">
+                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+                                            <div class="img_footer_item_screen4_dop"></div>
+                                        </div>
                                     </label>
+                                    <div class="num">
+                                        <div class="minus">
+                                            −
+                                        </div>
+                                        <div class="number">
+                                            <input type="text" value="0" name="window6">
+                                        </div>
+                                        <div class="plus">
+                                            +
+                                        </div>
+                                    </div>
                                 </li>
                                 <li>
                                     <label for="podushka">
-                                        <img src="<?php bloginfo('template_url') ?>/img/shkaf/ico/podushka.svg" alt="">
-                                        Послельные принадлежности
-                                        <input id="podushka" type="checkbox" name="ZshkafContain[]"
-                                               value="постельных принадлежностей">
+                                        <p class="imgBlock uglovoy"></p>
+                                        <div class="p">Вешалка</div>
+                                        <input type="checkbox" name="ZshkafContain[]" id="podushka" value="Вешалка">
+                                        <div class="img_footer_item_screen4">
+                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+                                            <div class="img_footer_item_screen4_dop"></div>
+                                        </div>
                                     </label>
+                                    <div class="num">
+                                        <div class="minus">
+                                            −
+                                        </div>
+                                        <div class="number">
+                                            <input type="text" value="0" name="window6">
+                                        </div>
+                                        <div class="plus">
+                                            +
+                                        </div>
+                                    </div>
                                 </li>
+<!--                                <li>-->
+<!--                                    <label for="podushka">-->
+<!--                                        <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/ico/podushka.svg" alt="">-->
+<!--                                        Послельные принадлежности-->
+<!--                                        <input id="podushka" type="checkbox" name="ZshkafContain[]"-->
+<!--                                               value="постельных принадлежностей">-->
+<!--                                    </label>-->
+<!--                                </li>-->
                                 <li>
                                     <label for="gladDoska">
-                                        <img src="<?php bloginfo('template_url') ?>/img/shkaf/ico/gladDoska.svg" alt="">
-                                        Гладильная доска
-                                        <input id="gladDoska" type="checkbox" name="ZshkafContain[]"
-                                               value="гладильной доски">
+                                        <p class="imgBlock uglovoy"></p>
+                                        <div class="p">Перегородка</div>
+                                        <input type="checkbox" name="ZshkafContain[]" id="gladDoska" value="Перегородка">
+                                        <div class="img_footer_item_screen4">
+                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+                                            <div class="img_footer_item_screen4_dop"></div>
+                                        </div>
                                     </label>
+                                    <div class="num">
+                                        <div class="minus">
+                                            −
+                                        </div>
+                                        <div class="number">
+                                            <input type="text" value="0" name="window6">
+                                        </div>
+                                        <div class="plus">
+                                            +
+                                        </div>
+                                    </div>
                                 </li>
+<!--                                <li>-->
+<!--                                    <label for="gladDoska">-->
+<!--                                        <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/ico/gladDoska.svg" alt="">-->
+<!--                                        Гладильная доска-->
+<!--                                        <input id="gladDoska" type="checkbox" name="ZshkafContain[]"-->
+<!--                                               value="гладильной доски">-->
+<!--                                    </label>-->
+<!--                                </li>-->
                                 <li>
                                     <label for="platya">
-                                        <img src="<?php bloginfo('template_url') ?>/img/shkaf/ico/platya.svg" alt="">
-                                        Пиджаки и платья на вешалках
-                                        <input id="platya" type="checkbox" name="ZshkafContain[]"
-                                               value="пиджаков и платьев на вешалках">
+                                        <p class="imgBlock uglovoy"></p>
+                                        <div class="p">Другое</div>
+                                        <input type="checkbox" name="ZshkafContain[]" id="platya" value="Другое">
+                                        <div class="img_footer_item_screen4">
+                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+                                            <div class="img_footer_item_screen4_dop"></div>
+                                        </div>
                                     </label>
+                                    <div class="num">
+                                        <div class="minus">
+                                            −
+                                        </div>
+                                        <div class="number">
+                                            <input type="text" value="0" name="window6">
+                                        </div>
+                                        <div class="plus">
+                                            +
+                                        </div>
+                                    </div>
                                 </li>
-                                <li>
-                                    <label for="knigi">
-                                        <img src="<?php bloginfo('template_url') ?>/img/shkaf/ico/knigi.svg" alt="">
-                                        Книги
-                                        <input id="knigi" type="checkbox" name="ZshkafContain[]" value="книг">
-                                    </label>
-                                </li>
+<!--                                <li>-->
+<!--                                    <label for="platya">-->
+<!--                                        <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/ico/platya.svg" alt="">-->
+<!--                                        Пиджаки и платья на вешалках-->
+<!--                                        <input id="platya" type="checkbox" name="ZshkafContain[]"-->
+<!--                                               value="пиджаков и платьев на вешалках">-->
+<!--                                    </label>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <label for="knigi">-->
+<!--                                        <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/ico/knigi.svg" alt="">-->
+<!--                                        Книги-->
+<!--                                        <input id="knigi" type="checkbox" name="ZshkafContain[]" value="книг">-->
+<!--                                    </label>-->
+<!--                                </li>-->
                             </ul>
                         </div>
-                        <div class="quest questRight">
-                            <ul>
-                                <li>
-                                    <label for="galstuki">
-                                        <div class="helper">Галстуки</div>
-                                        <img src="<?php bloginfo('template_url') ?>/img/shkaf/ico/galstuki.svg" alt=""
-                                             class="helper">
-                                        <input id="galstuki" type="checkbox" name="ZshkafContain[]" value="галстуков">
-                                    </label>
-                                </li>
-                                <li>
-                                    <label for="kurtki">
-                                        <div>Куртки</div>
-                                        <img src="<?php bloginfo('template_url') ?>/img/shkaf/ico/kurtki.svg" alt=""
-                                             class="helper">
-                                        <input id="kurtki" type="checkbox" name="ZshkafContain[]" value="курток">
-                                    </label>
-                                </li>
-                                <li>
-                                    <label for="odezhda">
-                                        <div>Одежда и бельё</div>
-                                        <img src="<?php bloginfo('template_url') ?>/img/shkaf/ico/odezhda.svg" alt=""
-                                             class="helper">
-                                        <input id="odezhda" type="checkbox" name="ZshkafContain[]"
-                                               value="одежды и белья">
-                                    </label>
-                                </li>
-                                <li>
-                                    <label for="obuv">
-                                        <div>Обувь</div>
-                                        <img src="<?php bloginfo('template_url') ?>/img/shkaf/ico/obuv.svg" alt=""
-                                             class="helper">
-                                        <input id="obuv" type="checkbox" name="ZshkafContain[]" value="обуви">
-                                    </label>
-                                </li>
-                                <li>
-                                    <label for="kot">
-                                        <div>Кот</div>
-                                        <img src="<?php bloginfo('template_url') ?>/img/shkaf/ico/kot.svg" alt=""
-                                             class="helper">
-                                        <input id="kot" type="checkbox" name="ZshkafContain[]" value="кота">
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="shkafInside">
-                            <div class="shkafInsideContain">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/pylesos.png" alt=""
-                                     id="pylesosImg" class="pylesos">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/podushka.png" alt=""
-                                     id="podushkaImg" class="podushka">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/podushka2.png" alt=""
-                                     id="podushka2Img" class="podushka">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/gladDoska.png" alt=""
-                                     id="gladDoskaImg" class="gladDoska">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/platya1.png" alt=""
-                                     id="platya1Img" class="platya">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/platya2.png" alt=""
-                                     id="platya2Img" class="platya">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/knigi1.png" alt="" id="knigi1Img"
-                                     class="knigi">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/knigi2.png" alt="" id="knigi2Img"
-                                     class="knigi">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/galstuki.png" alt=""
-                                     id="galstukiImg" class="galstuki">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/kurtki.png" alt="" id="kurtkiImg"
-                                     class="kurtki">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/belyje.png" alt="" id="belyjeImg"
-                                     class="odezhda">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/odezhda1.png" alt=""
-                                     id="odezhda1Img" class="odezhda">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/odezhda2.png" alt=""
-                                     id="odezhda2Img" class="odezhda">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/obuv1.png" alt="" id="obuv1Img"
-                                     class="obuv">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/obuv2.png" alt="" id="obuv2Img"
-                                     class="obuv">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/obuv3.png" alt="" id="obuv3Img"
-                                     class="obuv">
-                                <img src="<?php bloginfo('template_url') ?>/img/shkaf/kot.png" alt="" id="kotImg"
-                                     class="kot">
-                            </div>
-                        </div>
+<!--                        <div class="quest questRight">-->
+<!--                            <ul>-->
+<!--                                <li>-->
+<!--                                    <label for="galstuki">-->
+<!--                                        <div class="helper">Галстуки</div>-->
+<!--                                        <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/ico/galstuki.svg" alt=""-->
+<!--                                             class="helper">-->
+<!--                                        <input id="galstuki" type="checkbox" name="ZshkafContain[]" value="галстуков">-->
+<!--                                    </label>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <label for="kurtki">-->
+<!--                                        <div>Куртки</div>-->
+<!--                                        <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/ico/kurtki.svg" alt=""-->
+<!--                                             class="helper">-->
+<!--                                        <input id="kurtki" type="checkbox" name="ZshkafContain[]" value="курток">-->
+<!--                                    </label>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <label for="odezhda">-->
+<!--                                        <div>Одежда и бельё</div>-->
+<!--                                        <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/ico/odezhda.svg" alt=""-->
+<!--                                             class="helper">-->
+<!--                                        <input id="odezhda" type="checkbox" name="ZshkafContain[]"-->
+<!--                                               value="одежды и белья">-->
+<!--                                    </label>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <label for="obuv">-->
+<!--                                        <div>Обувь</div>-->
+<!--                                        <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/ico/obuv.svg" alt=""-->
+<!--                                             class="helper">-->
+<!--                                        <input id="obuv" type="checkbox" name="ZshkafContain[]" value="обуви">-->
+<!--                                    </label>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <label for="kot">-->
+<!--                                        <div>Кот</div>-->
+<!--                                        <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/ico/kot.svg" alt=""-->
+<!--                                             class="helper">-->
+<!--                                        <input id="kot" type="checkbox" name="ZshkafContain[]" value="кота">-->
+<!--                                    </label>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                        <div class="shkafInside">-->
+<!--                            <div class="shkafInsideContain">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/pylesos.png" alt=""-->
+<!--                                     id="pylesosImg" class="pylesos">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/podushka.png" alt=""-->
+<!--                                     id="podushkaImg" class="podushka">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/podushka2.png" alt=""-->
+<!--                                     id="podushka2Img" class="podushka">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/gladDoska.png" alt=""-->
+<!--                                     id="gladDoskaImg" class="gladDoska">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/platya1.png" alt=""-->
+<!--                                     id="platya1Img" class="platya">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/platya2.png" alt=""-->
+<!--                                     id="platya2Img" class="platya">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/knigi1.png" alt="" id="knigi1Img"-->
+<!--                                     class="knigi">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/knigi2.png" alt="" id="knigi2Img"-->
+<!--                                     class="knigi">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/galstuki.png" alt=""-->
+<!--                                     id="galstukiImg" class="galstuki">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/kurtki.png" alt="" id="kurtkiImg"-->
+<!--                                     class="kurtki">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/belyje.png" alt="" id="belyjeImg"-->
+<!--                                     class="odezhda">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/odezhda1.png" alt=""-->
+<!--                                     id="odezhda1Img" class="odezhda">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/odezhda2.png" alt=""-->
+<!--                                     id="odezhda2Img" class="odezhda">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/obuv1.png" alt="" id="obuv1Img"-->
+<!--                                     class="obuv">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/obuv2.png" alt="" id="obuv2Img"-->
+<!--                                     class="obuv">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/obuv3.png" alt="" id="obuv3Img"-->
+<!--                                     class="obuv">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/shkaf/kot.png" alt="" id="kotImg"-->
+<!--                                     class="kot">-->
+<!--                            </div>-->
+<!--                        </div>-->
                     </div>
                     <nav class="navigation nav_bottom">
                         <p class="prev">
