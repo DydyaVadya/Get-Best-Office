@@ -1273,32 +1273,53 @@ if ($utm == 'facebook') {
                                 </li>
                                 <li>
                                     <label for="zerkala">
+                                        <input type="checkbox" name="ZshkafCover[]" id="zerkala" value="зеркала и стёкла">
                                         <div class="coverImg zerkala">
-                                        </div>
-                                        <div>
-                                            <input type="checkbox" name="ZshkafCover[]" id="zerkala"
-                                                   value="зеркала и стёкла">
+                                            <div class="left_img chast">
+                                            </div>
+                                            <div>
+                                                <p>Оплата частями (без %)</p>
+                                                <span>
+                                                    Товарищи! дальнейшее развитие различных форм деятельности
+                                                    в значительной степени обуславливает создание соответствующий
+                                                    условий активизации.
+                                                </span>
+                                            </div>
                                         </div>
                                     </label>
                                 </li>
                                 <li>
                                     <label for="peskostrui">
+                                        <input type="checkbox" name="ZshkafCover[]" id="peskostrui" value="пескоструйный рисунок на зеркалах">
                                         <div class="coverImg peskostrui">
+                                            <div class="left_img free">
+                                            </div>
+                                            <div>
+                                                <p>Бесплатный замер и установка</p>
+                                                <span>
+                                                    Товарищи! дальнейшее развитие различных форм деятельности
+                                                    в значительной степени обуславливает создание соответствующий
+                                                    условий активизации.
+                                                </span>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <input type="checkbox" name="ZshkafCover[]" id="peskostrui"
-                                                   value="пескоструйный рисунок на зеркалах"> Пескоструйный рисунок на
-                                            зеркалах
-                                        </div>
+
                                     </label>
                                 </li>
                                 <li>
                                     <label for="fotopechat">
+                                        <input type="checkbox" name="ZshkafCover[]" id="fotopechat" value="фотопечать">
                                         <div class="coverImg fotopechat">
-                                        </div>
-                                        <div>
-                                            <input type="checkbox" name="ZshkafCover[]" id="fotopechat"
-                                                   value="фотопечать"> Фотопечать
+                                            <div class="left_img oneday">
+                                            </div>
+                                            <div>
+                                                <p>Изготовление за 1 день</p>
+                                                <span>
+                                                    Товарищи! дальнейшее развитие различных форм деятельности
+                                                    в значительной степени обуславливает создание соответствующий
+                                                    условий активизации.
+                                                </span>
+                                            </div>
                                         </div>
                                     </label>
                                 </li>
