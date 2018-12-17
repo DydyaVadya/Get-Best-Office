@@ -1197,7 +1197,7 @@ if ($utm == 'facebook') {
 
             </div>
         </div>
-        <div class="screen" style="display: none" id="screen7">
+        <div class="screen" style="display: none" id="screen8">
             <div class="tabletView">
                 <nav class="navigation helpernav nav_top">
                     <div class="container">
@@ -1389,149 +1389,149 @@ if ($utm == 'facebook') {
 
             </div>
         </div>
-        <div class="screen" style="display: none" id="screen8">
-            <div class="tabletView">
-                <nav class="navigation helpernav nav_top">
-                    <div class="container">
-                        <p class="next mobNav" style="display: none">
-                            Следующий шаг
-                            <img src="<?php bloginfo('template_url') ?>/img/next.png" alt="">
-                        </p>
-                        <p class="prev mobNav" style="display: none">
-                            <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
-                        </p>
-                        <!-- <p class="prev">
-                                <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
-                            </p>
-                            <p class="next">
-                                Следующий шаг
-                                <img src="<?php bloginfo('template_url') ?>/img/next.png" alt="">
-                            </p> -->
-                        <ul class="steps">
-                            <li id="step2">
-                                <div>1 шаг</div>
-                                <!--                                            <p>Комната</p>-->
-                            </li>
-                            <li id="step3">
-                                <div>2 шаг</div>
-                                <!--                                        <p>Тип</p>-->
-                            </li>
-                            <li id="step4">
-                                <div>3 шаг</div>
-                                <!--                                            <p>Размер</p>-->
-                            </li>
-                            <li id="step5">
-                                <div>4 шаг</div>
-                                <!--                                        <p>Наполнение</p>-->
-                            </li>
-                            <li id="step6">
-                                <div>5 шаг</div>
-                                <!--                                            <p>Вид</p>-->
-                            </li>
-                            <li id="step7" class="active">
-                                <div>6 шаг</div>
-                                <!--                                            <p>Условия</p>-->
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="container">
-                    <div class="plashka">
-                        <p class="question">
-                            Ура! Осталось совсем немного!
-                            <br> Выбираем условия производителей:
-                        </p>
-                        <div class="quest">
-                            <ul>
-                                <li>
-                                    <label for="doprassr">
-                                        <div class="coverImg doprassr"></div>
-                                        <div>
-                                            <input type="checkbox" name="Zdopusloviya[]" id="doprassr"
-                                                   value="покупка в рассрочку">
-                                            <!-- Покупка в рассрочку -->
-                                            Оплата частями (без %)
-                                        </div>
-                                    </label>
-                                </li>
-                                <!-- <li>
-                                <label for="doprasgarant">
-                                    <div class="coverImg doprasgarant"></div>
-                                    <div>
-                                        <input type="checkbox" name="Zdopusloviya[]" id="doprasgarant" value="расширенная гарантия до 5 лет">
-                                        Расширенная гарантия<br> до 5 лет
-                                    </div>
-                                </label>
-                            </li> -->
-                                <li>
-                                    <label for="dopbelsplzamer">
-                                        <div class="coverImg dopbelsplzamer"></div>
-                                        <div>
-                                            <input type="checkbox" name="Zdopusloviya[]" id="dopbelsplzamer"
-                                                   value="бесплатный замер и установка"> Бесплатный замер и установка
-                                        </div>
-                                    </label>
-                                </li>
-                                <!-- <li>
-                                <label for="doppodlestnica">
-                                    <div class="coverImg doppodlestnica"></div>
-                                    <div>
-                                        <input type="checkbox" name="Zdopusloviya[]" id="doppodlestnica" value="подарок лестница-ступенька для шкафа">
-                                        Табуретка в подарок
-                                    </div>
-                                </label>
-                            </li> -->
-                                <li class="left">
-                                    <label for="dopskidka">
-                                        <div class="coverImg dopskidka"></div>
-                                        <div>
-                                            <input type="checkbox" name="Zdopusloviya[]" id="dopskidka"
-                                                   value="3D дизайн шкафа"> 3D дизайн шкафа
-                                        </div>
-                                    </label>
-                                </li>
-                                <li class="right">
-                                    <label for="dopshuflyadka">
-                                        <div class="coverImg dopshuflyadka"></div>
-                                        <div>
-                                            <input type="checkbox" name="Zdopusloviya[]" id="dopshuflyadka"
-                                                   value="Изготовление за 1 день"> Изготовление за 1 день
-                                        </div>
-                                    </label>
-                                </li>
-                            </ul>
-                            <div class="chooseAll">
-                                <p class="pseudoBtn">
-                                    Выбрать всё
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <nav class="navigation nav_bottom">
-                        <p class="prev">
-                            <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
-                        </p>
-                        <p class="next">
-                            Подобрать варианты
-                            <img src="<?php bloginfo('template_url') ?>/img/next.png" alt="">
-                        </p>
-                        <div class="container">
-                            <p class="next mobNav" style="display: none">
-                                Следующий шаг
-                                <img src="<?php bloginfo('template_url') ?>/img/next.png" alt="">
-                            </p>
-                            <p class="prev mobNav" style="display: none">
-                                <img src="<?php bloginfo('template_url') ?>/img/prev.png" alt=""> Предыдущий шаг
-                            </p>
-                        </div>
-                    </nav>
-                </div>
-                <!-- <div class="openNextStep">
-                    <p>Далее</p>
-                </div> -->
-
-            </div>
-        </div>
+<!--        <div class="screen" style="display: none" id="screen8">-->
+<!--            <div class="tabletView">-->
+<!--                <nav class="navigation helpernav nav_top">-->
+<!--                    <div class="container">-->
+<!--                        <p class="next mobNav" style="display: none">-->
+<!--                            Следующий шаг-->
+<!--                            <img src="--><?php //bloginfo('template_url') ?><!--/img/next.png" alt="">-->
+<!--                        </p>-->
+<!--                        <p class="prev mobNav" style="display: none">-->
+<!--                            <img src="--><?php //bloginfo('template_url') ?><!--/img/prev.png" alt=""> Предыдущий шаг-->
+<!--                        </p>-->
+<!--                        <!-- <p class="prev">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/prev.png" alt=""> Предыдущий шаг-->
+<!--                            </p>-->
+<!--                            <p class="next">-->
+<!--                                Следующий шаг-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/next.png" alt="">-->
+<!--                            </p> -->-->
+<!--                        <ul class="steps">-->
+<!--                            <li id="step2">-->
+<!--                                <div>1 шаг</div>-->
+<!--                                <!--                                            <p>Комната</p>-->-->
+<!--                            </li>-->
+<!--                            <li id="step3">-->
+<!--                                <div>2 шаг</div>-->
+<!--                                <!--                                        <p>Тип</p>-->-->
+<!--                            </li>-->
+<!--                            <li id="step4">-->
+<!--                                <div>3 шаг</div>-->
+<!--                                <!--                                            <p>Размер</p>-->-->
+<!--                            </li>-->
+<!--                            <li id="step5">-->
+<!--                                <div>4 шаг</div>-->
+<!--                                <!--                                        <p>Наполнение</p>-->-->
+<!--                            </li>-->
+<!--                            <li id="step6">-->
+<!--                                <div>5 шаг</div>-->
+<!--                                <!--                                            <p>Вид</p>-->-->
+<!--                            </li>-->
+<!--                            <li id="step7" class="active">-->
+<!--                                <div>6 шаг</div>-->
+<!--                                <!--                                            <p>Условия</p>-->-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </nav>-->
+<!--                <div class="container">-->
+<!--                    <div class="plashka">-->
+<!--                        <p class="question">-->
+<!--                            Ура! Осталось совсем немного!-->
+<!--                            <br> Выбираем условия производителей:-->
+<!--                        </p>-->
+<!--                        <div class="quest">-->
+<!--                            <ul>-->
+<!--                                <li>-->
+<!--                                    <label for="doprassr">-->
+<!--                                        <div class="coverImg doprassr"></div>-->
+<!--                                        <div>-->
+<!--                                            <input type="checkbox" name="Zdopusloviya[]" id="doprassr"-->
+<!--                                                   value="покупка в рассрочку">-->
+<!--                                            <!-- Покупка в рассрочку -->-->
+<!--                                            Оплата частями (без %)-->
+<!--                                        </div>-->
+<!--                                    </label>-->
+<!--                                </li>-->
+<!--                                <!-- <li>-->
+<!--                                <label for="doprasgarant">-->
+<!--                                    <div class="coverImg doprasgarant"></div>-->
+<!--                                    <div>-->
+<!--                                        <input type="checkbox" name="Zdopusloviya[]" id="doprasgarant" value="расширенная гарантия до 5 лет">-->
+<!--                                        Расширенная гарантия<br> до 5 лет-->
+<!--                                    </div>-->
+<!--                                </label>-->
+<!--                            </li> -->-->
+<!--                                <li>-->
+<!--                                    <label for="dopbelsplzamer">-->
+<!--                                        <div class="coverImg dopbelsplzamer"></div>-->
+<!--                                        <div>-->
+<!--                                            <input type="checkbox" name="Zdopusloviya[]" id="dopbelsplzamer"-->
+<!--                                                   value="бесплатный замер и установка"> Бесплатный замер и установка-->
+<!--                                        </div>-->
+<!--                                    </label>-->
+<!--                                </li>-->
+<!--                                <!-- <li>-->
+<!--                                <label for="doppodlestnica">-->
+<!--                                    <div class="coverImg doppodlestnica"></div>-->
+<!--                                    <div>-->
+<!--                                        <input type="checkbox" name="Zdopusloviya[]" id="doppodlestnica" value="подарок лестница-ступенька для шкафа">-->
+<!--                                        Табуретка в подарок-->
+<!--                                    </div>-->
+<!--                                </label>-->
+<!--                            </li> -->-->
+<!--                                <li class="left">-->
+<!--                                    <label for="dopskidka">-->
+<!--                                        <div class="coverImg dopskidka"></div>-->
+<!--                                        <div>-->
+<!--                                            <input type="checkbox" name="Zdopusloviya[]" id="dopskidka"-->
+<!--                                                   value="3D дизайн шкафа"> 3D дизайн шкафа-->
+<!--                                        </div>-->
+<!--                                    </label>-->
+<!--                                </li>-->
+<!--                                <li class="right">-->
+<!--                                    <label for="dopshuflyadka">-->
+<!--                                        <div class="coverImg dopshuflyadka"></div>-->
+<!--                                        <div>-->
+<!--                                            <input type="checkbox" name="Zdopusloviya[]" id="dopshuflyadka"-->
+<!--                                                   value="Изготовление за 1 день"> Изготовление за 1 день-->
+<!--                                        </div>-->
+<!--                                    </label>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                            <div class="chooseAll">-->
+<!--                                <p class="pseudoBtn">-->
+<!--                                    Выбрать всё-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <nav class="navigation nav_bottom">-->
+<!--                        <p class="prev">-->
+<!--                            <img src="--><?php //bloginfo('template_url') ?><!--/img/prev.png" alt=""> Предыдущий шаг-->
+<!--                        </p>-->
+<!--                        <p class="next">-->
+<!--                            Подобрать варианты-->
+<!--                            <img src="--><?php //bloginfo('template_url') ?><!--/img/next.png" alt="">-->
+<!--                        </p>-->
+<!--                        <div class="container">-->
+<!--                            <p class="next mobNav" style="display: none">-->
+<!--                                Следующий шаг-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/next.png" alt="">-->
+<!--                            </p>-->
+<!--                            <p class="prev mobNav" style="display: none">-->
+<!--                                <img src="--><?php //bloginfo('template_url') ?><!--/img/prev.png" alt=""> Предыдущий шаг-->
+<!--                            </p>-->
+<!--                        </div>-->
+<!--                    </nav>-->
+<!--                </div>-->
+<!--                <!-- <div class="openNextStep">-->
+<!--                    <p>Далее</p>-->
+<!--                </div> -->-->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
         <div class="screen" style="display: none" id="screen9">
             <div class="tabletView">
                 <!-- <nav class="navigation">

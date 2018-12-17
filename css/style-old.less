@@ -2284,7 +2284,7 @@ body {
 
 
   //Материалы
-  #screen8 {
+  #screen7 {
 
     input[type="checkbox"]:checked + .coverImg:before {
       opacity: 1;
@@ -2689,8 +2689,181 @@ body {
     }
   }
 
-  
- 
+  //Дополнительные условия
+  #screen8 {
+    //background-image: url(../img/backgrounds/bg-img.png);
+    background-color: white;
+    color: black;
+    font-family: "Roboto", Verdana, sans-serif;
+    font-size: 18px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    input {
+      display: none;
+    }
+    .question {
+      font-weight: normal;
+      font-family: "Roboto", Verdana, sans-serif;
+      padding: 10px 0 30px 0;
+    }
+    .quest {
+      ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        li {
+          display: inline-block;
+          text-align: center;
+          width: 23%;
+          margin-bottom: 30px;
+          margin-right: 1%;
+          vertical-align: top;
+          font-size: 14px;
+          &.left {
+            float: left;
+          }
+          &.right {
+            float: right;
+          }
+          label {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            cursor: pointer;
+            .coverImg {
+              // -webkit-transition: 0.3s;
+              // transition: 0.3s;
+              width: 110px;
+              height: 110px;
+              background-repeat: no-repeat;
+              margin: auto;
+              margin-bottom: 25px;
+              background-position: center center;
+              &.selected {
+                &.doprassr {
+                  background-image: url(../img/dop/dop-2.png);
+                  + div {
+                    color: #f5d731;
+                  }
+                }
+
+                &.doprasgarant {
+                  background-image: url(../img/dop/doprasgarantColor.png);
+                  + div {
+                    color: #f5d731;
+                  }
+                }
+                &.dopbelsplzamer {
+                  background-image: url(../img/dop/zamer-2.png);
+                  + div {
+                    color: #f5d731;
+                  }
+                }
+                &.doppodlestnica {
+                  background-image: url(../img/dop/dopTaburetColor.png);
+                  + div {
+                    color: #f5d731;
+                  }
+                }
+                &.dopskidka {
+                  // background-image: url(../img/dop/dopskidkaColor.png);
+                  background-image: url(../img/dop/3d-2.png);
+                  + div {
+                    color: #f5d731;
+                  }
+                }
+                &.dopshuflyadka {
+                  background-image: url(../img/dop/kalendar-2.png);
+                  + div {
+                    color: #f5d731;
+                  }
+                }
+              }
+              &.doprassr {
+                background-image: url(../img/dop/dop.png);
+              }
+              &.doprasgarant {
+                background-image: url(../img/dop/doprasgarant.png);
+              }
+              &.dopbelsplzamer {
+                background-image: url(../img/dop/zamer-1.png);
+              }
+              &.doppodlestnica {
+                background-image: url(../img/dop/dopTaburet.png);
+              }
+              &.dopskidka {
+                // background-image: url(../img/dop/dopskidka.png);
+                background-image: url(../img/dop/3d.png);
+              }
+              &.dopshuflyadka {
+                background-image: url(../img/dop/kalendar.png);
+              }
+            }
+            &:hover {
+              .coverImg {
+                &.doprassr {
+                  background-image: url(../img/dop/dop-2.png);
+                }
+                &.doprasgarant {
+                  background-image: url(../img/dop/doprasgarantColor.png);
+                }
+                &.dopbelsplzamer {
+                  background-image: url(../img/dop/zamer-2.png);
+                }
+                &.doppodlestnica {
+                  background-image: url(../img/dop/dopTaburetColor.png);
+                }
+                &.dopskidka {
+                  // background-image: url(../img/dop/dopskidkaColor.png);
+                  background-image: url(../img/dop/3d-2.png);
+                }
+                &.dopshuflyadka {
+                  background-image: url(../img/dop/kalendar-2.png);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .chooseAll {
+      text-align: center;
+      margin: 0;
+      margin-top: 50px;
+      .pseudoBtn {
+        font-family: "Roboto", Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: black;
+        padding: 15px 50px;
+        margin-top: 15px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 3px;
+        width: auto;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        border: 4px solid #fbc740;
+        -o-border-image: linear-gradient(to right, #fbc740 0%, #f0e625 100%);
+        border-image: -webkit-gradient(linear, left top, right top, from(#fbc740), to(#f0e625));
+        border-image: linear-gradient(to right, #fbc740 0%, #f0e625 100%);
+        border-image-slice: 1;
+        &.selected {
+          background-color: #fbc02d;
+        }
+        &:hover {
+          color: white;
+          background-image: -webkit-gradient(linear, left top, right top, from(#fbc740), to(#f0e625));
+          background-image: linear-gradient(90deg, #fbc740 0%, #f0e625 100%);
+          cursor: pointer;
+        }
+      }
+    }
+  }
 
   //Все введённые данные
   #screen9 {
@@ -3516,7 +3689,7 @@ body {
       }
     }
   }
-  body #screen8 {
+  body #screen7 {
     .quest {
       ul {
         li {
@@ -3628,7 +3801,7 @@ body {
       }
     }
   }
-  body #screen8 {
+  body #screen7 {
     .quest {
       ul {
         li {
@@ -3697,7 +3870,18 @@ body {
       }
     }
   }
-  
+  body #screen8 {
+    .chooseAll {
+      clear: both;
+    }
+    .quest {
+      ul {
+        li {
+          width: 47%;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -3787,7 +3971,7 @@ body {
       width: 90%;
     }
   }
-  body #screen8 {
+  body #screen7 {
     .quest {
       ul {
         li {
@@ -3931,7 +4115,7 @@ body {
       }
     }
   }
-  body #screen8 {
+  body #screen7 {
     .quest {
       ul {
         li {
@@ -3949,7 +4133,15 @@ body {
       }
     }
   }
-  
+  body #screen8 {
+    .quest {
+      ul {
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
   body #screen1 {
     .navigation {
       margin-top: 0px;

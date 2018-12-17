@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/fonts.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/jquery-ui.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/owl.carousel.min.css">
-    <link rel="stylesheet/less" href="<?php bloginfo('template_url') ?>/css/style.less">
+    <link rel="stylesheet/less" href="<?php bloginfo('template_url') ?>/css/style-old.less">
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
     
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/slick/slick.css">
