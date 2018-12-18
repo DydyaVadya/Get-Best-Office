@@ -973,7 +973,7 @@ if ($utm == 'facebook') {
                                         <div class="p">Кухня</div>
                                         <input type="checkbox" name="ZshkafContain[]" id="pylesos" value="Пылесос">
                                         <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров</span>
                                             <div class="img_footer_item_screen4_dop"></div>
                                         </div>
                                     </label>
@@ -995,7 +995,7 @@ if ($utm == 'facebook') {
                                         <div class="p">Вешалка</div>
                                         <input type="checkbox" name="ZshkafContain[]" id="podushka" value="Вешалка">
                                         <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров</span>
                                             <div class="img_footer_item_screen4_dop"></div>
                                         </div>
                                     </label>
@@ -1025,7 +1025,7 @@ if ($utm == 'facebook') {
                                         <div class="p">Перегородка</div>
                                         <input type="checkbox" name="ZshkafContain[]" id="gladDoska" value="Перегородка">
                                         <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров</span>
                                             <div class="img_footer_item_screen4_dop"></div>
                                         </div>
                                     </label>
@@ -1055,7 +1055,7 @@ if ($utm == 'facebook') {
                                         <div class="p">Другое</div>
                                         <input type="checkbox" name="ZshkafContain[]" id="platya" value="Другое">
                                         <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров</span>
                                             <div class="img_footer_item_screen4_dop"></div>
                                         </div>
                                     </label>

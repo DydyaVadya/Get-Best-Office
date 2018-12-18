@@ -13,7 +13,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-WWCQWMV');</script>
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
-    <title>Расчёт стоимости шкафов-купе в Киевее. Шкафы-купе от производителей. </title>
+    <title>Расчёт стоимости Офисной Мебели в Киеве от производителей. </title>
     <meta name="description" content="Шкафы-купе по индивидуальным проектам. Цены от производителей! Рассчитайте стоимость шкафа-купе за 2 минуты! Доставка и установка по Киеву!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <script src="<?php bloginfo('template_url') ?>/js/jquery-3.1.1.min.js"></script>
@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/fonts.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/jquery-ui.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/owl.carousel.min.css">
-    <link rel="stylesheet/less" href="<?php bloginfo('template_url') ?>/css/style-old.less">
+    <link rel="stylesheet/less" href="<?php bloginfo('template_url') ?>/css/style.less">
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
     
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/slick/slick.css">
