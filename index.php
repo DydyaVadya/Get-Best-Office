@@ -391,7 +391,7 @@ if ($utm == 'facebook') {
 
                                         <input type="radio" name="shkafPlace" id="prihozhaya" value="В прихожую"
                                                checked>
-                                        <p class="p">Прихожая</p>
+                                        <p class="p">Кабинет Руководителя</p>
                                         <div class="img_footer_item_screen3">
                                             <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
                                             <div class="img_footer_item_screen3_dop"></div>
@@ -405,7 +405,7 @@ if ($utm == 'facebook') {
 
                                     <label for="gostinaya">
                                         <p class="imgBlock gostinaya"></p>
-                                        <p class="p">Гостиная</p>
+                                        <p class="p">Кабинет Персонала</p>
                                         <input type="radio" name="shkafPlace" id="gostinaya" value="В гостиную">
 
                                         <div class="img_footer_item_screen3">
@@ -418,7 +418,7 @@ if ($utm == 'facebook') {
 
                                     <label for="spalnya">
                                         <p class="imgBlock spalnya"></p>
-                                        <p class="p">Спальня</p>
+                                        <p class="p">Другое</p>
                                         <input type="radio" name="shkafPlace" id="spalnya" value="В спальню">
 
                                         <div class="img_footer_item_screen3">
@@ -526,7 +526,7 @@ if ($utm == 'facebook') {
                                     <label for="korpus">
                                         <p class="imgBlock korpus selected"></p>
                                         <!--                                            <a href="#" class="toolTip" title="Имеет полноценную единую конструкцию, состоящую из боковых и задних стенок, потолка, пола, перегородок, ящиков и раздвижных дверей (полноценный отдельно стоящий шкаф). Преимущества такого шкафа: возможность перемещать по квартире, например, при ремонте.">-->
-                                        <div class="p">Корпус</div>
+                                        <div class="p">Классика</div>
                                         <input type="radio" name="shkafType" id="korpus" value="Корпус" checked>
                                         <div class="img_footer_item_screen4">
                                             <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
@@ -542,7 +542,7 @@ if ($utm == 'facebook') {
                                     <label for="klassik">
                                         <p class="imgBlock klassik selected"></p>
                                         <!--                                            <a href="#" class="toolTip" title="Имеет полноценную единую конструкцию, состоящую из боковых и задних стенок, потолка, пола, перегородок, ящиков и раздвижных дверей (полноценный отдельно стоящий шкаф). Преимущества такого шкафа: возможность перемещать по квартире, например, при ремонте.">-->
-                                        <div class="p">Классика</div>
+                                        <div class="p">Эконом</div>
                                         <input type="radio" name="shkafType" id="klassik" value="Классика" checked>
                                         <div class="img_footer_item_screen4">
                                             <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
@@ -556,7 +556,7 @@ if ($utm == 'facebook') {
                                 <li>
                                     <label for="vstroenny">
                                         <p class="imgBlock vstroenny"></p>
-                                        <div class="p">Встроеный</div>
+                                        <div class="p">Лофт</div>
                                         <!--                                            <a href="#" class="toolTip" title='Шкаф, встроенный в нишу в Вашей квартире, либо "вмонтированный" в стену. Не имеющий задней, боковой стенки, дна, потолка или одного из вышеперечисленного. Преимущества такого шкафа: максимальное использование свободного пространства комнаты для хранения.'>-->
                                         <input type="radio" name="shkafType" id="vstroenny" value="Встроенный">
                                         <div class="img_footer_item_screen4">
@@ -571,7 +571,7 @@ if ($utm == 'facebook') {
                                 <li>
                                     <label for="uglovoy">
                                         <p class="imgBlock uglovoy"></p>
-                                        <div class="p">Угловой</div>
+                                        <div class="p">Премиум</div>
                                         <!--                                            <a href="#" class="toolTip" title="Встроенный или же отдельно стоящий шкаф-купе, устанавливающийся в угол. Такой шкаф позволит Вам максимально использовать свободное пространство комнаты для хранения.">-->
                                         <input type="radio" name="shkafType" id="uglovoy" value="Угловой">
                                         <div class="img_footer_item_screen4">
@@ -755,13 +755,13 @@ if ($utm == 'facebook') {
                                     </label>
                                     <div class="num">
                                         <div class="minus">
-                                            −
+                                            <div>−</div>
                                         </div>
                                         <div class="number">
                                             <input type="text" value="1" name="window1">
                                         </div>
                                         <div class="plus">
-                                            +
+                                            <div>+</div>
                                         </div>
                                     </div>
                                 </li>
@@ -1252,7 +1252,7 @@ if ($utm == 'facebook') {
                             <ul>
                                 <li>
                                     <label for="dsp">
-                                        <input type="checkbox" name="ZshkafCover[]" id="dsp" value="ламинированное ДСП, ЛДСП" checked>
+                                        <input type="checkbox" name="ZshkafCover[]" id="dsp" value="ламинированное ДСП, ЛДСП">
                                         <div class="coverImg dsp">
                                             <div class="left_img diz">
                                             </div>
