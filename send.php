@@ -27,7 +27,7 @@ if((isset($phone)&&$_POST['phone']!='')){
     }
     $response['success'] ? header('HTTP/1.1 200 OK') : header('HTTP/1.1 500 Internal Server Error') ;
     header('Content-Type: application/json');
-    echo json_encode($response);
+    echo json_encode($response);    
 }
 
 // $msg = "Подбор шкафа купе!"."%0A"."Дата: $dt"."%0A"."Имя: $name"."%0A"."Телефон: $phone"."%0A"."Ключевое слово: $utm";

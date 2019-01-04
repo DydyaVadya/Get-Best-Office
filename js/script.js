@@ -48,7 +48,7 @@ jQuery(function ($) {
 function completeFields() {
     //Куда?
     var kuda = $('#screen3 input[type="radio"]:checked').val();
-
+    
     $('#screen9 .otvetKuda').html(kuda);
 
     //Стиль
@@ -81,7 +81,7 @@ function completeFields() {
     var numberOfItems = `${typeOfFurniture1} - ${tableNumber}шт, ${typeOfFurniture2} - ${armChearNumber}шт, <br> 
                 ${typeOfFurniture3} - ${sofaNumber}шт, ${typeOfFurniture4} - ${nightstandNumber}шт, <br> 
                 ${typeOfFurniture5} - ${closetNumber}шт, ${typeOfFurniture6} - ${KitchenNumber}шт`;
-    $('#screen9 .otvetRazmer .w').html(numberOfItems);
+                $('#screen9 .otvetRazmer .w').html(numberOfItems);
 
     //Дополнительная комплектация
     var urna = $('#screen6 #pylesos').val();
@@ -94,12 +94,12 @@ function completeFields() {
     var other = $('#screen6 #platya').val();
     var otherNumber = $('#screen6 #otherAdditional').val();
 
-
+    
     var dopComplect = `${urna} - ${urnaNumber}шт, ${veshalka} - ${veshalkaNumber}шт,<br>${peregorodka} - ${peregorodkaNumber}шт, ${other} - ${otherNumber}шт`;
     $('#screen9 .otvetOtdelka').html(dopComplect);
     // var h = parseInt($('#screen5 #height').val());
     // var b = parseInt($('#screen5 #deep').val());
-
+  
     // $('#screen9 .otvetRazmer .h').html(h);
     // $('#screen9 .otvetRazmer .b').html(b);
 
@@ -155,21 +155,21 @@ function getRandomArbitrary(min, max) {
 
 //tooltip
 $(document).ready(function () {
-    $('.toolTip').tooltip({
-    });
+   $('.toolTip').tooltip({
+   });
 });
 
 //slider
 $(document).ready(function () {
-    $('#sliderH').slider({
-        range: "min",
-        min: 120,
-        max: 400,
-        value: 270,
-        slide: function( event, ui ) {
-            $('#screen5 #height').val( ui.value );
-        }
-    });
+   $('#sliderH').slider({
+       range: "min",
+       min: 120,
+       max: 400,
+       value: 270,
+       slide: function( event, ui ) {
+           $('#screen5 #height').val( ui.value );
+       }
+   });
     $('#sliderW').slider({
         range: "min",
         min: 60,
@@ -188,9 +188,9 @@ $(document).ready(function () {
             $('#screen5 #deep').val( ui.value );
         }
     });
-    $('#screen5 #height').val( $("#sliderH").slider("value"));
-    $('#screen5 #width').val( $("#sliderW").slider( "value" ));
-    $('#screen5 #deep').val( $("#sliderD").slider( "value" ));
+   $('#screen5 #height').val( $("#sliderH").slider("value"));
+   $('#screen5 #width').val( $("#sliderW").slider( "value" ));
+   $('#screen5 #deep').val( $("#sliderD").slider( "value" ));
 
     $( "#screen5 #height" ).on( "change", function() {
         $("#sliderH").slider( "value", $(this).val() );
@@ -321,15 +321,15 @@ $(document).ready(function () {
 
 //name
 $(document).ready(function () {
-    $('#screen2 .next').click(function (e) {
-        var personName = $('input[name="name"]').val();
-        if (personName.length == 0){
-            $('.personName').html("Аноним");
-        } else{
-            $('.personName').html(personName);
-        }
+   $('#screen2 .next').click(function (e) {
+       var personName = $('input[name="name"]').val();
+       if (personName.length == 0){
+           $('.personName').html("Аноним");
+       } else{
+           $('.personName').html(personName);
+       }
 
-    });
+   });
 });
 
 //Форма
@@ -383,33 +383,33 @@ $(document).ready(function () {
 
 //Количество конфигураций
 $(document).ready(function () {
-    var configKolvo =  Math.round(getRandomArbitrary(63, 400));
-    $('#screen8 .next, #screen8 .openNextStep, #screen8 .steps').click(function () {
-        $('#screen9 .resultCount span').animate({ num: configKolvo /* - начало */ }, {
-            duration: 5000,
-            step: function (num){
-                this.innerHTML = (num).toFixed(0);
-            },
-            complete: function() {
-                $(this).addClass("blink");
-                $('#screen9 .next').addClass("selected");
-            }
-        });
-        var $target = $('#screen9 .quest li');
-        var hold = 800;
+   var configKolvo =  Math.round(getRandomArbitrary(63, 400));
+   $('#screen8 .next, #screen8 .openNextStep, #screen8 .steps').click(function () {
+       $('#screen9 .resultCount span').animate({ num: configKolvo /* - начало */ }, {
+           duration: 5000,
+           step: function (num){
+               this.innerHTML = (num).toFixed(0);
+           },
+           complete: function() {
+               $(this).addClass("blink");
+               $('#screen9 .next').addClass("selected");
+           }
+       });
+       var $target = $('#screen9 .quest li');
+       var hold = 800;
 
-        $.each($target,function(i,t){
-            var $this = $(t);
-            setTimeout(function(){ $this.show('normal'); },i*hold);
-        });
-    })
+       $.each($target,function(i,t){
+           var $this = $(t);
+           setTimeout(function(){ $this.show('normal'); },i*hold);
+       });
+   })
 });
 
 //Шары
 $(document).ready(function () {
-    $('#screen9 .next').click(function () {
+   $('#screen9 .next').click(function () {
         $('#screen10 .mBaloon').animate({"top": "-773px"}, 40000);
-    });
+   }); 
 });
 
 //navigation
@@ -462,7 +462,7 @@ $(document).ready(function () {
                 {left: 0},
                 {duration: 5000, easing: "easeInOutBack"}
             )}
-        , 3000
+            , 3000
     );
 });
 $(document).ready(function () {
@@ -488,38 +488,38 @@ $(document).ready(function () {
             console.log(a);
             $tel = $phone;
             $(this).prop( 'disabled', true ).val('Отправка...');
-            $('#screen10 .alert').hide();
-
+            $('#screen10 .alert').hide();        
+            
             $.ajax({
-                url:     "wp-content/themes/office/send-calculator-form.php", //url страницы (action_ajax_form.php)
-                type:     "POST", //метод отправки
-                dataType: "html", //формат данных
-                data: $("#kalkulatorForm").serialize(),  // Сеарилизуем объект
-                success: function(response) { //Данные отправлены успешно
-                    // $("#calc-form").prop( 'disabled', false ).val('Заказать звонок');
-                    alert("Спасибо!!! Заявка отправлена!");
-                    dataLayer.push({'event': 'formsend'}); //подбор шкаф отправка формы
+            url:     "wp-content/themes/office/send-calculator-form.php", //url страницы (action_ajax_form.php)
+            type:     "POST", //метод отправки
+            dataType: "html", //формат данных
+            data: $("#kalkulatorForm").serialize(),  // Сеарилизуем объект
+            success: function(response) { //Данные отправлены успешно
+               // $("#calc-form").prop( 'disabled', false ).val('Заказать звонок'); 
+                alert("Спасибо!!! Заявка отправлена!");
+                dataLayer.push({'event': 'formsend'}); //подбор шкаф отправка формы
 
-                },
-                error: function(response) {
-                    alert("Извините, заявка не отправлена! Попробуйте позже!");
-                    dataLayer.push({'event': 'formsend'}); //подбор шкаф отправка формы
-                }
-            });
+            },
+            error: function(response) {    
+            alert("Извините, заявка не отправлена! Попробуйте позже!");
+            dataLayer.push({'event': 'formsend'}); //подбор шкаф отправка формы       
+            }
+        });
         }
     });
-    /*  $("form").submit(function(e) {
-          var ref = $(this).find("required");
-          $(ref).each(function(){
-              if ( $(this).val() == '' )
-              {
-                  alert("Поле не должно быть пустое!");
-                  $(this).focus();
-                  e.preventDefault();
-                  return false;
-              }
-          });  return true;
-      });*/
+  /*  $("form").submit(function(e) {
+        var ref = $(this).find("required");
+        $(ref).each(function(){
+            if ( $(this).val() == '' )
+            {
+                alert("Поле не должно быть пустое!");
+                $(this).focus();
+                e.preventDefault();
+                return false;
+            }
+        });  return true;
+    });*/
     $('#callForm').submit(function () {
         var but = $(this).find('input[type="submit"]');
         but.prop( 'disabled', true ).val('Отправка...');
@@ -540,7 +540,7 @@ $(document).ready(function () {
                 url: "wp-content/themes/office/send.php",
                 data: form_data,
                 cache: false,
-                success: function () {
+                success: function () {                
                     form.fadeOut(300, function () {
                         form.trigger('reset');
                         $('.callWind .title').hide();
@@ -553,7 +553,7 @@ $(document).ready(function () {
                         $('.stickerCall').show('slow');
                         form.fadeIn(300).siblings('.thankYou').remove();
                         but.prop( 'disabled', false ).val('Заказать звонок');
-
+                        
                     }, 10000);
 
                 }
@@ -600,8 +600,8 @@ $(document).ready(function () {
 //Вызов формы заказ звонка
 $(document).ready(function () {
     $('.stickerCall').click(function () {
-        $(this).hide();
-        $('.callWind').show("slow");
+       $(this).hide();
+       $('.callWind').show("slow");
     });
     $('.callWind .close').click(function () {
         $('.callWind').hide();
@@ -631,7 +631,7 @@ $(document).ready(function () {
         $('#kalkulator').find('.screen').show();
     });
 });
-/*
+/* 
 $(document).ready(function() {
 $('#calc-form').click(function(){
             sendCalculatorForm('kalkulatorForm', '/wp-content/themes/shkaf/send-calculator-form.php');
@@ -649,9 +649,9 @@ function sendCalculatorForm(ajax_form, url) {
                 dataLayer.push({'event': 'formsend'}); //подбор шкаф отправка формы
 
             },
-            error: function(response) {
+            error: function(response) {    
             alert("Спасибо! Заявка отправлена!");
-            dataLayer.push({'event': 'formsend'}); //подбор шкаф отправка формы
+            dataLayer.push({'event': 'formsend'}); //подбор шкаф отправка формы       
             }
         });
     };
@@ -660,17 +660,17 @@ function sendCalculatorForm(ajax_form, url) {
 //вставил с котлов тестово переключатель инпутов кружечки в для скрина 5
 $(document).ready(function () {
     $('body #screen5 .quest ul li .num .plus, body #screen5 .quest ul li .num .minus').click(function () {
-        var inp = $(this).closest('.num').find('input').val();
-        if($(this).hasClass('minus')){
+        var inp = $(this).closest('.num').find('input').val();               
+        if($(this).hasClass('minus')){ 
             if(inp == 1){
                 $(this).closest('li').find('input[type="checkbox"]').prop("checked", false);
-                $(this).closest('.num').find('input').val(inp*1 - 1);
-            } else if(inp<1){
-
-                $(this).closest('li').find('input[type="checkbox"]').prop("checked", false);
+                $(this).closest('.num').find('input').val(inp*1 - 1); 
+            } else if(inp<1){ 
+                          
+            $(this).closest('li').find('input[type="checkbox"]').prop("checked", false);           
                 return false;
-            } else {
-                $(this).closest('.num').find('input').val(inp*1 - 1);
+            } else {                
+                $(this).closest('.num').find('input').val(inp*1 - 1);                
             }
         } else if ($(this).hasClass('plus')){
             $(this).closest('.num').find('input').val(inp*1 + 1);
@@ -679,7 +679,7 @@ $(document).ready(function () {
     });
     $('body #screen5 .quest ul li .num input').change(function () {
         if($(this).val()<0){
-
+                       
             $(this).val(0);
         }
     });
@@ -692,9 +692,9 @@ $(document).ready(function () {
         if($(this).hasClass('minus')){
             if(inp == 1){
                 $(this).closest('li').find('input[type="checkbox"]').prop("checked", false);
-                $(this).closest('.num').find('input').val(inp*1 - 1);
+                $(this).closest('.num').find('input').val(inp*1 - 1); 
             } else if(inp<1){
-                $(this).closest('li').find('input[type="checkbox"]').prop("checked", false);
+                $(this).closest('li').find('input[type="checkbox"]').prop("checked", false); 
                 return false;
             } else{
                 $(this).closest('.num').find('input').val(inp*1 - 1);
@@ -743,7 +743,7 @@ $(document).ready(function () {
                 $(elem).css('background-image',`url(/office/wp-content/themes/office/img/cabinet/otherCabinet${n}.jpg)`);
             });
         }
-
-    });
+     
+      });
 });
 
