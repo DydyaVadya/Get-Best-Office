@@ -4,7 +4,7 @@ $name = trim(strip_tags($_POST['name']));
 $phone =  trim(strip_tags($_POST['phone']));
 $utm = trim(strip_tags($_POST['utm']));
 if((isset($phone)&&$_POST['phone']!='')){
-    $to = 'info@get-best.com.ua';
+    $to = 'vitaliy.flashnika@gmail.com';
     $subject = 'Заявка на подбор шкафа-купе! сайт Get-best.com.ua';
     $message = '
                 <html>
@@ -27,8 +27,8 @@ if((isset($phone)&&$_POST['phone']!='')){
     }
     $response['success'] ? header('HTTP/1.1 200 OK') : header('HTTP/1.1 500 Internal Server Error') ;
     header('Content-Type: application/json');
-    echo json_encode($response);    
+    echo json_encode($response);
 }
 
-$msg = "Подбор шкафа купе!"."%0A"."Дата: $dt"."%0A"."Имя: $name"."%0A"."Телефон: $phone"."%0A"."Ключевое слово: $utm";
-file_get_contents("https://api.telegram.org/bot570437910:AAEwPpGQmtVYaeRsLwiUSVr1crfjdjQ8WY4/sendMessage?chat_id=@get123best123shkaf&text=$msg");
+// $msg = "Подбор шкафа купе!"."%0A"."Дата: $dt"."%0A"."Имя: $name"."%0A"."Телефон: $phone"."%0A"."Ключевое слово: $utm";
+// file_get_contents("https://api.telegram.org/bot570437910:AAEwPpGQmtVYaeRsLwiUSVr1crfjdjQ8WY4/sendMessage?chat_id=@get123best123shkaf&text=$msg");
