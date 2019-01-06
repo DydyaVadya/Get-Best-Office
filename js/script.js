@@ -485,7 +485,6 @@ $(document).ready(function () {
             // $code = $('select[name="code"]').val();
             $phone = $('input[name="phone"]').val();
             var a = $("#kalkulatorForm").serialize();
-            console.log(a);
             $tel = $phone;
             $(this).prop( 'disabled', true ).val('Отправка...');
             $('#screen10 .alert').hide();
@@ -496,8 +495,9 @@ $(document).ready(function () {
                 dataType: "html", //формат данных
                 data: $("#kalkulatorForm").serialize(),  // Сеарилизуем объект
                 success: function(response) { //Данные отправлены успешно
-                    // $("#calc-form").prop( 'disabled', false ).val('Заказать звонок');
                     alert("Спасибо!!! Заявка отправлена!");
+                    $("#kalkulatorForm").trigger('reset');
+                    $("#calc-form").prop( 'disabled', false ).val('Заказать звонок');
                     dataLayer.push({'event': 'formsend'}); //подбор шкаф отправка формы
 
                 },

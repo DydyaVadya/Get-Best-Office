@@ -2,28 +2,21 @@
 <project version="4">
   <component name="PublishConfigData" serverName="Get-Best-Office">
     <serverData>
+      <paths name="DMmebel">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="Get-Best-Office">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/get-best.com.ua/www/wp-content/themes/office" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="GetBest">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Mama-Catering">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="OTT">
+      <paths name="http://mebelukraine.com.ua/">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

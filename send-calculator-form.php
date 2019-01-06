@@ -65,5 +65,7 @@ if((isset($phone)&&$_POST['phone']!='')){
     header('Content-Type: application/json');
     echo json_encode($response);
 }
-// $msg = "Просчет шкафа купе"."%0A"."Дата: $dt"."%0A"."Имя: $name"."%0A"."Телефон: $phone"."%0A"."Комната: $place"."%0A"."Тип шкафа: $type"."%0A"."Планируем хранить: $contain"."%0A"."Глубина: $deep"."%0A"."Высота: $height"."%0A"."Ширина: $width"."%0A"."Тип фасадов: $cover"."%0A"."Доп условия: $terms";
-// file_get_contents("https://api.telegram.org/bot570437910:AAEwPpGQmtVYaeRsLwiUSVr1crfjdjQ8WY4/sendMessage?chat_id=@get123best123shkaf&text=$msg"."%0A"."Ключевое слово: $utm");
+ $msg = "Просчет офисной мебели"."%0A"."Дата: $dt"."%0A"."Имя: $name"."%0A"."Телефон: $phone"."%0A"."Комната: $place"."%0A"."Стиль офисной мебели: $type"."%0A"."Тип мебелиь: $typeOfFurnityre"."%0A"."Количество столов: $tableAmount"."%0A"."Количество кресел: $armchairAmount"."%0A"."Количество диванов: $sofaAmount"
+     ."%0A"."Количество тумб: $nightstandAmount"."%0A"."Количество шкафов: $closetAmount"."%0A"."Количество кухонь: $kitchenAmount"."%0A"."Дополнительная комплектация: $contain"
+     ."%0A"."Количество урн: $shoemakerAmount"."%0A"."Количество вешалок: $hangerAmount"."%0A"."Количество перегородок: $partitionAmount"."%0A"."Другая дополнительная комплектация: $otherAdditional"."%0A"."Дополнительные условия покупки: $terms";
+ file_get_contents("https://api.telegram.org/bot570437910:AAEwPpGQmtVYaeRsLwiUSVr1crfjdjQ8WY4/sendMessage?chat_id=@get123best123shkaf&text=$msg"."%0A"."Ключевое слово: $utm");
