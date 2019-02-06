@@ -392,7 +392,7 @@ if ($utm == 'facebook') {
                                         <input type="radio" name="shkafPlace" id="prihozhaya" value="В Кабинет Руководителя">
                                         <p class="p">Кабинет Руководителя</p>
                                         <div class="img_footer_item_screen3">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->
                                             <div class="img_footer_item_screen3_dop"></div>
                                         </div>
 
@@ -408,7 +408,7 @@ if ($utm == 'facebook') {
                                         <input type="radio" name="shkafPlace" id="gostinaya" value="В Кабинет Персонала">
 
                                         <div class="img_footer_item_screen3">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->
                                             <div class="img_footer_item_screen3_dop"></div>
                                         </div>
                                     </label>
@@ -421,7 +421,7 @@ if ($utm == 'facebook') {
                                         <input type="radio" name="shkafPlace" id="spalnya" value="Другое">
 
                                         <div class="img_footer_item_screen3">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->
                                             <div class="img_footer_item_screen3_dop"></div>
                                         </div>
                                     </label>
@@ -523,12 +523,12 @@ if ($utm == 'facebook') {
                             <ul>
                                 <li>
                                     <label for="korpus">
-                                        <p class="imgBlock korpus selected"></p>
+                                        <p class="imgBlock korpus"></p>
                                         <!--                                            <a href="#" class="toolTip" title="Имеет полноценную единую конструкцию, состоящую из боковых и задних стенок, потолка, пола, перегородок, ящиков и раздвижных дверей (полноценный отдельно стоящий шкаф). Преимущества такого шкафа: возможность перемещать по квартире, например, при ремонте.">-->
                                         <div class="p">Классика</div>
                                         <input type="radio" name="officeType" id="korpus" value="Классика" checked>
                                         <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->
                                             <div class="img_footer_item_screen4_dop"></div>
                                         </div>
                                         <!-- <p class="vopros">
@@ -544,7 +544,7 @@ if ($utm == 'facebook') {
                                         <div class="p">Эконом</div>
                                         <input type="radio" name="officeType" id="klassik" value="Эконом">
                                         <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->
                                             <div class="img_footer_item_screen4_dop"></div>
                                             <!-- <p class="vopros">
                                                 ?
@@ -559,7 +559,7 @@ if ($utm == 'facebook') {
                                         <!--                                            <a href="#" class="toolTip" title='Шкаф, встроенный в нишу в Вашей квартире, либо "вмонтированный" в стену. Не имеющий задней, боковой стенки, дна, потолка или одного из вышеперечисленного. Преимущества такого шкафа: максимальное использование свободного пространства комнаты для хранения.'>-->
                                         <input type="radio" name="officeType" id="vstroenny" value="Лофт">
                                         <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->
                                             <div class="img_footer_item_screen4_dop"></div>
                                             <!-- <p class="vopros">
                                                 ?
@@ -574,7 +574,7 @@ if ($utm == 'facebook') {
                                         <!--                                            <a href="#" class="toolTip" title="Встроенный или же отдельно стоящий шкаф-купе, устанавливающийся в угол. Такой шкаф позволит Вам максимально использовать свободное пространство комнаты для хранения.">-->
                                         <input type="radio" name="officeType" id="uglovoy" value="Премиум">
                                         <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
+<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->
                                             <div class="img_footer_item_screen4_dop"></div>
                                             <!-- <p class="vopros">
                                                 ?
@@ -747,12 +747,59 @@ if ($utm == 'facebook') {
                                         <p class="imgBlock korpus selected"></p>
                                         <div class="p">Стол</div>
                                         <input type="checkbox" name="OffType[]" id="Stol" value="Стол" checked>
-                                        <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
-                                            <div class="img_footer_item_screen4_dop"></div>
-                                        </div>
+<!--                                        <div class="img_footer_item_screen4">-->
+<!--<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->-->
+<!--                                            <div class="img_footer_item_screen4_dop"></div>-->
+<!--                                        </div>-->
                                     </label>
+                                    <div class="num_wrapper">
+                                        <div class="num_item">
+                                            <p>Ширина(см)</p>
+                                    <div class="num_block">
+                                        <div class="minus_size">
+                                            <div>−</div>
+                                        </div>
+                                        <div class="number_size">
+                                            <input type="text" value="150" name="table_width" id="table_width">
+                                        </div>
+                                        <div class="plus_size">
+                                            <div>+</div>
+                                        </div>
+                                    </div>
+                                        </div>
+                                        <div class="num_item">
+                                            <p>Глубина(см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="60" name="table_deep" id="table_deep">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="num_item">
+                                            <p>Высота(см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="75" name="table_height" id="table_height">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                     <div class="num">
+                                        <p class="num__text">Количество столов</p>
+                                        <div class="num__wrapper-buttons">
                                         <div class="minus">
                                             <div>−</div>
                                         </div>
@@ -762,6 +809,7 @@ if ($utm == 'facebook') {
                                         <div class="plus">
                                             <div>+</div>
                                         </div>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
@@ -769,12 +817,59 @@ if ($utm == 'facebook') {
                                         <p class="imgBlock klassik"></p>
                                         <div class="p">Кресло</div>
                                         <input type="checkbox" name="OffType[]" id="Kreslo" value="Кресло">
-                                        <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
-                                            <div class="img_footer_item_screen4_dop"></div>
-                                        </div>
+<!--                                        <div class="img_footer_item_screen4">-->
+<!--<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->-->
+<!--                                            <div class="img_footer_item_screen4_dop"></div>-->
+<!--                                        </div>-->
                                     </label>
+                                    <div class="num_wrapper">
+                                        <div class="num_item">
+                                            <p>Ширина (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="53" name="kreslo_width" id="kreslo_width">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="num_item">
+                                            <p>Глубина (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="51" name="kreslo_deep" id="kreslo_deep">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="num_item">
+                                            <p>Высота (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="114" name="kreslo_height" id="kreslo_height">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                     <div class="num">
+                                        <p class="num__text">Количество кресел</p>
+                                        <div class="num__wrapper-buttons">
                                         <div class="minus">
                                             −
                                         </div>
@@ -784,6 +879,7 @@ if ($utm == 'facebook') {
                                         <div class="plus">
                                             +
                                         </div>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
@@ -791,12 +887,59 @@ if ($utm == 'facebook') {
                                         <p class="imgBlock vstroenny"></p>
                                         <div class="p">Диван</div>
                                         <input type="checkbox" name="OffType[]" id="Divan" value="Диван">
-                                        <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
-                                            <div class="img_footer_item_screen4_dop"></div>
-                                        </div>
+<!--                                        <div class="img_footer_item_screen4">-->
+<!--<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->-->
+<!--                                            <div class="img_footer_item_screen4_dop"></div>-->
+<!--                                        </div>-->
                                     </label>
+                                    <div class="num_wrapper">
+                                        <div class="num_item">
+                                            <p>Ширина (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="240" name="sofa_width" id="sofa_width">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="num_item">
+                                            <p>Глубина (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="105" name="sofa_deep" id="sofa_deep">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="num_item">
+                                            <p>Высота (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="80" name="sofa_height" id="sofa_height">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                     <div class="num">
+                                        <p class="num__text">Количество диванов</p>
+                                        <div class="num__wrapper-buttons">
                                         <div class="minus">
                                             −
                                         </div>
@@ -806,6 +949,7 @@ if ($utm == 'facebook') {
                                         <div class="plus">
                                             +
                                         </div>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
@@ -813,12 +957,59 @@ if ($utm == 'facebook') {
                                         <p class="imgBlock uglovoy"></p>
                                         <div class="p">Тумба</div>
                                         <input type="checkbox" name="OffType[]" id="tumba" value="Тумба">
-                                        <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
-                                            <div class="img_footer_item_screen4_dop"></div>
-                                        </div>
+<!--                                        <div class="img_footer_item_screen4">-->
+<!--<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->-->
+<!--                                            <div class="img_footer_item_screen4_dop"></div>-->
+<!--                                        </div>-->
                                     </label>
+                                    <div class="num_wrapper">
+                                        <div class="num_item">
+                                            <p>Ширина (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="40" name="tumba_width" id="tumba_width">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="num_item">
+                                            <p>Глубина (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="45" name="tumba_deep" id="tumba_deep">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="num_item">
+                                            <p>Высота (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="58" name="tumba_height" id="tumba_height">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                     <div class="num">
+                                        <p class="num__text">Количество тумб</p>
+                                        <div class="num__wrapper-buttons">
                                         <div class="minus">
                                             −
                                         </div>
@@ -828,19 +1019,67 @@ if ($utm == 'facebook') {
                                         <div class="plus">
                                             +
                                         </div>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
                                     <label for="Shkaf">
-                                        <p class="imgBlock vstroenny"></p>
+                                        <p class="imgBlock shkaf"></p>
                                         <div class="p">Шкаф</div>
                                         <input type="checkbox" name="OffType[]" id="Shkaf" value="Шкаф">
-                                        <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
-                                            <div class="img_footer_item_screen4_dop"></div>
-                                        </div>
+<!--                                        <div class="img_footer_item_screen4">-->
+<!--<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->-->
+<!--                                            <div class="img_footer_item_screen4_dop"></div>-->
+<!--                                        </div>-->
                                     </label>
+                                    <div class="num_wrapper">
+                                        <div class="num_item">
+                                            <p>Ширина (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="60" name="shkaf_width" id="shkaf_width">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="num_item">
+                                            <p>Глубина (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="33" name="shkaf_deep" id="shkaf_deep">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="num_item">
+                                            <p>Высота (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="215" name="shkaf_height" id="shkaf_height">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                     <div class="num">
+                                        <p class="num__text">Количество шкафов</p>
+                                        <div class="num__wrapper-buttons">
                                         <div class="minus">
                                             −
                                         </div>
@@ -850,19 +1089,67 @@ if ($utm == 'facebook') {
                                         <div class="plus">
                                             +
                                         </div>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
                                     <label for="kuhnya">
-                                        <p class="imgBlock uglovoy"></p>
+                                        <p class="imgBlock kuhnya"></p>
                                         <div class="p">Кухня</div>
                                         <input type="checkbox" name="OffType[]" id="kuhnya" value="Кухня">
-                                        <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>
-                                            <div class="img_footer_item_screen4_dop"></div>
-                                        </div>
+<!--                                        <div class="img_footer_item_screen4">-->
+<!--<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</span>-->-->
+<!--                                            <div class="img_footer_item_screen4_dop"></div>-->
+<!--                                        </div>-->
                                     </label>
+                                    <div class="num_wrapper">
+                                        <div class="num_item">
+                                            <p>Ширина (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="200" name="kuhnia_width" id="kuhnia_width">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="num_item">
+                                            <p>Глубина (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="60" name="kuhnia_deep" id="kuhnia_deep">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="num_item">
+                                            <p>Высота (см)</p>
+                                            <div class="num_block">
+                                                <div class="minus_size">
+                                                    <div>−</div>
+                                                </div>
+                                                <div class="number_size">
+                                                    <input type="text" value="217" name="kuhnia_height" id="kuhnia_height">
+                                                </div>
+                                                <div class="plus_size">
+                                                    <div>+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                     <div class="num">
+                                        <p class="num__text">Количество кухонь</p>
+                                        <div class="num__wrapper-buttons">
                                         <div class="minus">
                                             −
                                         </div>
@@ -871,6 +1158,7 @@ if ($utm == 'facebook') {
                                         </div>
                                         <div class="plus">
                                             +
+                                        </div>
                                         </div>
                                     </div>
                                 </li>
@@ -968,13 +1256,13 @@ if ($utm == 'facebook') {
                                 <!--                                </li>-->
                                 <li>
                                     <label for="pylesos">
-                                        <p class="imgBlock uglovoy"></p>
+                                        <p class="imgBlock urna"></p>
                                         <div class="p">Урна</div>
                                         <input type="checkbox" name="ZshkafContain[]" id="pylesos" value="Урна">
-                                        <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров</span>
-                                            <div class="img_footer_item_screen4_dop"></div>
-                                        </div>
+<!--                                        <div class="img_footer_item_screen4">-->
+<!--<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров</span>-->-->
+<!--                                            <div class="img_footer_item_screen4_dop"></div>-->
+<!--                                        </div>-->
                                     </label>
                                     <div class="num">
                                         <div class="minus">
@@ -990,13 +1278,13 @@ if ($utm == 'facebook') {
                                 </li>
                                 <li>
                                     <label for="podushka">
-                                        <p class="imgBlock uglovoy"></p>
+                                        <p class="imgBlock veshalka"></p>
                                         <div class="p">Вешалка</div>
                                         <input type="checkbox" name="ZshkafContain[]" id="podushka" value="Вешалка">
-                                        <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров</span>
-                                            <div class="img_footer_item_screen4_dop"></div>
-                                        </div>
+<!--                                        <div class="img_footer_item_screen4">-->
+<!--<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров</span>-->-->
+<!--                                            <div class="img_footer_item_screen4_dop"></div>-->
+<!--                                        </div>-->
                                     </label>
                                     <div class="num">
                                         <div class="minus">
@@ -1020,13 +1308,13 @@ if ($utm == 'facebook') {
                                 <!--                                </li>-->
                                 <li>
                                     <label for="gladDoska">
-                                        <p class="imgBlock uglovoy"></p>
+                                        <p class="imgBlock peregorodka"></p>
                                         <div class="p">Перегородка</div>
-                                        <input type="checkbox" name="ZshkafContain[]" id="gladDoska" value="Перегородка">
-                                        <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров</span>
-                                            <div class="img_footer_item_screen4_dop"></div>
-                                        </div>
+                                        <input name="ZshkafContain[]" id="gladDoska" value="Перегородка">
+<!--                                        <div class="img_footer_item_screen4">-->
+<!--<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров</span>-->-->
+<!--                                            <div class="img_footer_item_screen4_dop"></div>-->
+<!--                                        </div>-->
                                     </label>
                                     <div class="num">
                                         <div class="minus">
@@ -1050,13 +1338,13 @@ if ($utm == 'facebook') {
                                 <!--                                </li>-->
                                 <li>
                                     <label for="platya">
-                                        <p class="imgBlock uglovoy"></p>
+                                        <p class="imgBlock other"></p>
                                         <div class="p">Другое</div>
                                         <input type="checkbox" name="ZshkafContain[]" id="platya" value="Другое">
-                                        <div class="img_footer_item_screen4">
-                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров</span>
-                                            <div class="img_footer_item_screen4_dop"></div>
-                                        </div>
+<!--                                        <div class="img_footer_item_screen4">-->
+<!--<!--                                            <span>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров</span>-->-->
+<!--                                            <div class="img_footer_item_screen4_dop"></div>-->
+<!--                                        </div>-->
                                     </label>
                                     <div class="num">
                                         <div class="minus">

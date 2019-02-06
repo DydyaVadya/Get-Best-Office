@@ -78,6 +78,10 @@ function completeFields() {
     var KitchenNumber = $('#screen5 #Kitchen').val();
     var typeOfFurniture6 = $('#screen5 #kuhnya').val();
 
+    var tableWidth = $('#screen5 #table_width').val();
+    var tableHeight = $('#screen5 #table_height').val();
+    var tableDeep = $('#screen5 #table_deep').val();
+
     var numberOfItems = `${typeOfFurniture1} - ${tableNumber}шт, ${typeOfFurniture2} - ${armChearNumber}шт, <br> 
                 ${typeOfFurniture3} - ${sofaNumber}шт, ${typeOfFurniture4} - ${nightstandNumber}шт, <br> 
                 ${typeOfFurniture5} - ${closetNumber}шт, ${typeOfFurniture6} - ${KitchenNumber}шт`;
@@ -674,6 +678,33 @@ $(document).ready(function () {
             }
         } else if ($(this).hasClass('plus')){
             $(this).closest('.num').find('input').val(inp*1 + 1);
+            $(this).closest('li').find('input[type="checkbox"]').prop("checked", true);
+        }
+    });
+    $('body #screen5 .quest ul li .num input').change(function () {
+        if($(this).val()<0){
+
+            $(this).val(0);
+        }
+    });
+});
+//-------------------размеры
+$(document).ready(function () {
+    $('body #screen5 .num_block .minus_size, body #screen5 .num_block .plus_size').click(function () {
+        var inp = $(this).closest('.num_block').find('input').val();
+        if($(this).hasClass('minus_size')){
+            if(inp == 10){
+                $(this).closest('li').find('input[type="checkbox"]').prop("checked", false);
+                $(this).closest('.num_block').find('input').val(inp*1 - 10);
+            } else if(inp<10){
+
+                $(this).closest('li').find('input[type="checkbox"]').prop("checked", false);
+                return false;
+            } else {
+                $(this).closest('.num_block').find('input').val(inp*1 - 10);
+            }
+        } else if ($(this).hasClass('plus_size')){
+            $(this).closest('.num_block').find('input').val(inp*1 + 10);
             $(this).closest('li').find('input[type="checkbox"]').prop("checked", true);
         }
     });

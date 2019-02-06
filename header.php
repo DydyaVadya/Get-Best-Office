@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/owl.carousel.min.css">
     <link rel="stylesheet/less" href="<?php bloginfo('template_url') ?>/css/style.less">
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
-    
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/slick/slick-theme.css">
     
